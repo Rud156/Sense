@@ -490,6 +490,7 @@ GameObject:
   - component: {fileID: 1950806921}
   - component: {fileID: 1950806920}
   - component: {fileID: 1874400157352317785}
+  - component: {fileID: 1383454742389570407}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -602,6 +603,25 @@ MonoBehaviour:
   runningSpeed: 14
   minDistanceBeforeRunning: 100
 --- !u!114 &1874400157352317785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258201031175996443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42e54375c375d7c4a9de479fbc507067, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAnimator: {fileID: 258201031168751565}
+  playerAgent: {fileID: 1950806922}
+  playerMovement: {fileID: 1950806920}
+  idleChangeTime: 7
+  idleLerpRate: 7
+  locomotionLerpRate: 7
+  minAnimationAffectValue: 0.3
+--- !u!114 &1383454742389570407
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

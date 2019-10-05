@@ -15975,61 +15975,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1947309158}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1950806919 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 258201031175996443, guid: f1800234c41a5f242a05fc4bf3b9d838,
-    type: 3}
-  m_PrefabInstance: {fileID: 258201030836385692}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1950806920 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1950806920, guid: f1800234c41a5f242a05fc4bf3b9d838,
-    type: 3}
-  m_PrefabInstance: {fileID: 258201030836385692}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1950806919}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86490bd4c50a29d41b5d2ba20eb258a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1950806921 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1950806921, guid: f1800234c41a5f242a05fc4bf3b9d838,
     type: 3}
   m_PrefabInstance: {fileID: 258201030836385692}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1950806919}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: efbc2db5f30fac04f95c22875d9acf51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!195 &1950806922 stripped
-NavMeshAgent:
-  m_CorrespondingSourceObject: {fileID: 1950806922, guid: f1800234c41a5f242a05fc4bf3b9d838,
-    type: 3}
-  m_PrefabInstance: {fileID: 258201030836385692}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1950806923
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1950806919}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42e54375c375d7c4a9de479fbc507067, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerAnimator: {fileID: 1960280145}
-  playerAgent: {fileID: 1950806922}
-  playerMovement: {fileID: 1950806920}
-  idleChangeTime: 7
-  idleLerpRate: 7
-  locomotionLerpRate: 7
-  minAnimationAffectValue: 0.3
 --- !u!1 &1952792853
 GameObject:
   m_ObjectHideFlags: 0
@@ -16122,12 +16079,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1952792853}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!95 &1960280145 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 258201031168751565, guid: f1800234c41a5f242a05fc4bf3b9d838,
-    type: 3}
-  m_PrefabInstance: {fileID: 258201030836385692}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1966546630
 GameObject:
   m_ObjectHideFlags: 0
@@ -17714,11 +17665,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 258201031175996443, guid: f1800234c41a5f242a05fc4bf3b9d838,
-        type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 258201031176165435, guid: f1800234c41a5f242a05fc4bf3b9d838,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17773,14 +17719,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1950806920, guid: f1800234c41a5f242a05fc4bf3b9d838, type: 3}
-      propertyPath: walkingSpeed
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1950806920, guid: f1800234c41a5f242a05fc4bf3b9d838, type: 3}
-      propertyPath: runningSpeed
-      value: 14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1800234c41a5f242a05fc4bf3b9d838, type: 3}
