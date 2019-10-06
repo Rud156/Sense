@@ -12,20 +12,22 @@ namespace Player
         public float minPlayerClickWeight = 0.3f;
         public PlayerAnimation playerAnimation;
 
-        private List<MovementInterestModifier> _movementInterestModifiers;
+        private List<PlayerMovementInterestModifier> _playerMovementInterestModifiers;
         private bool _hasReachedDestination;
 
         #region Unity Functions
 
-        private void Start() => _movementInterestModifiers = new List<MovementInterestModifier>();
+        private void Start() => _playerMovementInterestModifiers = new List<PlayerMovementInterestModifier>();
 
         #endregion
 
         #region External Functions
 
-        public void RegisterInterestModifier(MovementInterestModifier movementInterestModifier) => _movementInterestModifiers.Add(movementInterestModifier);
+        public void RegisterInterestModifier(PlayerMovementInterestModifier playerMovementInterestModifier) =>
+            _playerMovementInterestModifiers.Add(playerMovementInterestModifier);
 
-        public void UnRegisterInterestModifier(MovementInterestModifier movementInterestModifier) => _movementInterestModifiers.Remove(movementInterestModifier);
+        public void UnRegisterInterestModifier(PlayerMovementInterestModifier playerMovementInterestModifier) =>
+            _playerMovementInterestModifiers.Remove(playerMovementInterestModifier);
 
         public void SetDestinationStatus(bool hasReachedDestination) => _hasReachedDestination = hasReachedDestination;
 
@@ -40,14 +42,14 @@ namespace Player
             float mappedClickWeight = ExtensionFunctions.Map(beliefRatio, 0, 1, minPlayerClickWeight, 1);
 
             float maxModifierWeight = mappedClickWeight;
-            MovementInterestModifier maxModifier = null;
+            PlayerMovementInterestModifier maxModifier = null;
 
-            foreach (MovementInterestModifier movementInterestModifier in _movementInterestModifiers)
+            foreach (PlayerMovementInterestModifier playerMovementInterestModifier in _playerMovementInterestModifiers)
             {
-                if (movementInterestModifier.CanModifierAffect(maxModifierWeight))
+                if (playerMovementInterestModifier.CanModifierAffect(maxModifierWeight))
                 {
-                    maxModifierWeight = movementInterestModifier.InterestModifierWeight;
-                    maxModifier = movementInterestModifier;
+                    maxModifierWeight = playerMovementInterestModifier.InterestModifierWeight;
+                    maxModifier = playerMovementInterestModifier;
                 }
             }
 
