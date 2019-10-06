@@ -45,7 +45,7 @@ namespace Player
                 }
             }
 
-            if (maxModifier == null)
+            if (!maxModifier)
             {
                 playerMovement.MovePlayerToPosition(targetPosition);
             }

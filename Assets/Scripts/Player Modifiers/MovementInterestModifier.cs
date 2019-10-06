@@ -53,7 +53,7 @@ namespace PlayerModifier
 
         public bool IsWithinModifierRange() => _playerController != null;
 
-        public bool CanModifierAffect(float lastModifierWeight) => _playerController != null && interestWeight > lastModifierWeight && !_modifierUsed;
+        public bool CanModifierAffect(float lastModifierWeight) => _playerController && interestWeight > lastModifierWeight && !_modifierUsed;
 
         public float InterestModifierWeight => interestWeight;
 
