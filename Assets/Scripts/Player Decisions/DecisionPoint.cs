@@ -12,6 +12,8 @@ namespace PlayerDecisions
 
         [Header("Positions")] public Transform decisionPointPosition;
 
+        [Header("Items")] public DecisionItem decisionItem;
+
         #region Unity Functions
 
         private void OnTriggerEnter(Collider other)
@@ -35,6 +37,8 @@ namespace PlayerDecisions
         public DecisionPoint TopDecisionPoint => topPoint;
 
         public DecisionPoint BottomDecisionPoint => bottomPoint;
+
+        public DecisionItem GetDecisionItem() => decisionItem;
 
         #endregion
 

@@ -56,6 +56,10 @@ namespace Player
             }
         }
 
+        public void SnapPlayerToPosition(Vector3 position)
+        {
+        }
+
         #endregion
 
         #region Utility Functions

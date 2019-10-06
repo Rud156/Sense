@@ -1,4 +1,6 @@
-﻿using Player;
+﻿using System.Collections.Generic;
+using Items;
+using Player;
 using UnityEngine;
 using Utils;
 
@@ -12,6 +14,9 @@ namespace PlayerDecisions
         public Animator bottomArrowAnimator;
 
         [Header("Player")] public PlayerController playerController;
+        public int playerCheckPointSaveOffset;
+
+        [Header("Initial CheckPoint")] public DecisionPoint initialDecisionPoint;
 
         private bool _leftArrowAllowed;
         private bool _rightArrowAllowed;
@@ -22,9 +27,21 @@ namespace PlayerDecisions
 
         private DecisionPoint _currentDecisionPoint;
 
+        // CheckPoint
+        private DecisionPoint _lastSafeDecisionPoint;
+        private int _currentOffsetRemaining;
+        private List<DecisionPoint> _previousDecisionPoints;
+
         #region Unity Functions
 
-        private void Start() => ClearAllDecisionData();
+        private void Start()
+        {
+            ClearAllDecisionData();
+
+            _currentOffsetRemaining = playerCheckPointSaveOffset;
+            _lastSafeDecisionPoint = initialDecisionPoint;
+            _previousDecisionPoints = new List<DecisionPoint>();
+        }
 
         private void Update()
         {
@@ -50,7 +67,40 @@ namespace PlayerDecisions
 
         #region External Functions
 
+        #region Decision Affectors
+
         public void RegisterDecisionPoint(DecisionPoint decisionPoint) => _currentDecisionPoint = decisionPoint;
+
+        public void DecrementOffsetOnSuccessPlayer(DecisionPoint decisionPoint)
+        {
+            _currentOffsetRemaining -= 1;
+            _previousDecisionPoints.Add(decisionPoint);
+
+            if (_currentOffsetRemaining <= 0)
+            {
+                _previousDecisionPoints.RemoveAt(0);
+                _lastSafeDecisionPoint = _previousDecisionPoints[_previousDecisionPoints.Count - 1];
+            }
+        }
+
+        public void RevertToLastCheckPoint()
+        {
+            Vector3 safePosition = _lastSafeDecisionPoint.GetDecisionPointPosition();
+            playerController.SnapPlayerToPosition(safePosition);
+
+            foreach (DecisionPoint decisionPoint in _previousDecisionPoints)
+            {
+                DecisionItem decisionItem = decisionPoint.GetDecisionItem();
+                if (decisionItem != null)
+                {
+                    ItemsCollectibleController.Instance.RemoveItemFromPlayerInventory(decisionItem);
+                }
+            }
+        }
+
+        #endregion
+
+        #region Display
 
         public void ActivateLeftArrow()
         {
@@ -76,6 +126,10 @@ namespace PlayerDecisions
             bottomArrowAnimator.SetBool(EnableParam, true);
         }
 
+        #endregion
+
+        #region Clear
+
         public void ClearAllDecisionData()
         {
             leftArrowAnimator.SetBool(EnableParam, false);
@@ -85,6 +139,8 @@ namespace PlayerDecisions
 
             _currentDecisionPoint = null;
         }
+
+        #endregion
 
         #endregion
 

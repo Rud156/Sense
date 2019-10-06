@@ -2,8 +2,8 @@ using UnityEngine;
 
 namespace PlayerDecisions
 {
-    public class DecisionPointModifier : MonoBehaviour
+    public abstract class DecisionPointModifier : MonoBehaviour
     {
-
+        protected abstract void AffectPlayer();
     }
 }
