@@ -8162,7 +8162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interestWeight: 0.7
+  interestWeight: 0.092
   interestRange: 5
 --- !u!135 &1115113111
 SphereCollider:
@@ -15016,7 +15016,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
