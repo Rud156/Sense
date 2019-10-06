@@ -12,5 +12,6 @@ namespace Utils
         public const string RightButton = "Right";
         public const string TopButton = "Top";
         public const string BottomButton = "Bottom";
+        public const string CloseButton = "Close";
     }
 }

@@ -70,7 +70,11 @@ namespace Player
             playerAnimation.ReviveDeath();
         }
 
-        public void PlayFallDeathAnimation() => playerAnimation.PlayFallDeathAnimation();
+        public void PlayFallDeathAnimation(Vector3 startFallPosition)
+        {
+            playerAnimation.PlayFallDeathAnimation();
+            transform.position = startFallPosition;
+        }
 
         public void PlayDeathAnimation() => playerAnimation.PlayDeathAnimation();
 
