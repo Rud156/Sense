@@ -28,6 +28,9 @@ namespace Player
         private float _currentMovementSpeed;
         private float _targetMovementSpeed;
 
+        private static readonly int DeathParam = Animator.StringToHash("Death");
+        private static readonly int FallDeathParam = Animator.StringToHash("Fall Death");
+
         #region Unity Functions
 
         private void Start()
@@ -42,6 +45,28 @@ namespace Player
         {
             UpdateIdleAnimation();
             UpdateLocomotionAnimation();
+        }
+
+        #endregion
+
+        #region External Functions
+
+        public void PlayFallDeathAnimation()
+        {
+            playerAnimator.SetBool(DeathParam, true);
+            playerAnimator.SetBool(FallDeathParam, true);
+        }
+
+        public void PlayDeathAnimation()
+        {
+            playerAnimator.SetBool(DeathParam, true);
+            playerAnimator.SetBool(FallDeathParam, false);
+        }
+
+        public void ReviveDeath()
+        {
+            playerAnimator.SetBool(DeathParam, false);
+            playerAnimator.SetBool(FallDeathParam, false);
         }
 
         #endregion

@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Items;
 using Player;
+using UI;
 using UnityEngine;
 using Utils;
 
@@ -12,6 +14,7 @@ namespace PlayerDecisions
         public Animator rightArrowAnimator;
         public Animator topArrowAnimator;
         public Animator bottomArrowAnimator;
+        public SingleFader singleFader;
 
         [Header("Player")] public PlayerController playerController;
         public int playerCheckPointSaveOffset;
@@ -41,6 +44,13 @@ namespace PlayerDecisions
             _currentOffsetRemaining = playerCheckPointSaveOffset;
             _lastSafeDecisionPoint = initialDecisionPoint;
             _previousDecisionPoints = new List<DecisionPoint>();
+
+            singleFader.OnFadeOutComplete += ResetPlayerPositionOnFadeOut;
+        }
+
+        private void OnDestroy()
+        {
+            singleFader.OnFadeOutComplete -= ResetPlayerPositionOnFadeOut;
         }
 
         private void Update()
@@ -48,18 +58,22 @@ namespace PlayerDecisions
             if (Input.GetButtonDown(ControlConstants.LeftButton) && _leftArrowAllowed)
             {
                 playerController.MakePlayerMoveToDestination(_currentDecisionPoint.LeftDecisionPoint.GetDecisionPointPosition());
+                ClearAllDecisionData();
             }
             else if (Input.GetButtonDown(ControlConstants.RightButton) && _rightArrowAllowed)
             {
                 playerController.MakePlayerMoveToDestination(_currentDecisionPoint.RightDecisionPoint.GetDecisionPointPosition());
+                ClearAllDecisionData();
             }
             else if (Input.GetButtonDown(ControlConstants.TopButton) && _topArrowAllowed)
             {
                 playerController.MakePlayerMoveToDestination(_currentDecisionPoint.TopDecisionPoint.GetDecisionPointPosition());
+                ClearAllDecisionData();
             }
             else if (Input.GetButtonDown(ControlConstants.BottomButton) && _bottomArrowAllowed)
             {
                 playerController.MakePlayerMoveToDestination(_currentDecisionPoint.BottomDecisionPoint.GetDecisionPointPosition());
+                ClearAllDecisionData();
             }
         }
 
@@ -85,17 +99,7 @@ namespace PlayerDecisions
 
         public void RevertToLastCheckPoint()
         {
-            Vector3 safePosition = _lastSafeDecisionPoint.GetDecisionPointPosition();
-            playerController.SnapPlayerToPosition(safePosition);
-
-            foreach (DecisionPoint decisionPoint in _previousDecisionPoints)
-            {
-                DecisionItem decisionItem = decisionPoint.GetDecisionItem();
-                if (decisionItem != null)
-                {
-                    ItemsCollectibleController.Instance.RemoveItemFromPlayerInventory(decisionItem);
-                }
-            }
+            singleFader.StartFadeOut(true);
         }
 
         #endregion
@@ -128,10 +132,35 @@ namespace PlayerDecisions
 
         #endregion
 
-        #region Clear
+        #endregion
 
-        public void ClearAllDecisionData()
+        #region Utility Functions
+
+        private void ResetPlayerPositionOnFadeOut()
         {
+            Vector3 safePosition = _lastSafeDecisionPoint.GetDecisionPointPosition();
+            playerController.SnapAndRevivePlayerToPosition(safePosition);
+
+            foreach (DecisionPoint decisionPoint in _previousDecisionPoints)
+            {
+                DecisionItem decisionItem = decisionPoint.GetDecisionItem();
+                if (decisionItem)
+                {
+                    ItemsCollectibleController.Instance.RemoveItemFromPlayerInventory(decisionItem);
+                }
+
+                DecisionPointModifier decisionPointModifier = decisionPoint.GetDecisionPointModifier();
+                decisionPointModifier.ResetModifier();
+            }
+        }
+
+        private void ClearAllDecisionData()
+        {
+            _leftArrowAllowed = false;
+            _rightArrowAllowed = false;
+            _topArrowAllowed = false;
+            _bottomArrowAllowed = false;
+
             leftArrowAnimator.SetBool(EnableParam, false);
             rightArrowAnimator.SetBool(EnableParam, false);
             topArrowAnimator.SetBool(EnableParam, false);
@@ -139,8 +168,6 @@ namespace PlayerDecisions
 
             _currentDecisionPoint = null;
         }
-
-        #endregion
 
         #endregion
 

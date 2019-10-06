@@ -8,6 +8,7 @@ namespace Player
     {
         [Header("Player")] public PlayerMovement playerMovement;
         public float playerClickWeight = 0.3f;
+        public PlayerAnimation playerAnimation;
 
         private List<MovementInterestModifier> _movementInterestModifiers;
         private bool _hasReachedDestination;
@@ -56,9 +57,15 @@ namespace Player
             }
         }
 
-        public void SnapPlayerToPosition(Vector3 position)
+        public void SnapAndRevivePlayerToPosition(Vector3 position)
         {
+            transform.position = position;
+            playerAnimation.ReviveDeath();
         }
+
+        public void PlayFallDeathAnimation() => playerAnimation.PlayFallDeathAnimation();
+
+        public void PlayDeathAnimation() => playerAnimation.PlayDeathAnimation();
 
         #endregion
 

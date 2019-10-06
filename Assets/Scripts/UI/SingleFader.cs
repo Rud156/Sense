@@ -4,7 +4,7 @@ using Utils;
 
 namespace UI
 {
-    public class SingleFade : MonoBehaviour
+    public class SingleFader : MonoBehaviour
     {
         [Header("Fade Rate")] public float fadeInRate;
         public float fadeOutRate;
