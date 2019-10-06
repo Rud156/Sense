@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 namespace PlayerDecisions
 {
@@ -6,8 +7,6 @@ namespace PlayerDecisions
     {
         public DecisionItemType decisionItemType;
 
-        [Header("Scrolls")] [TextArea] public string textWorldObject;
-
-        [Header("Coins")] public int itemCount;
+        [Header("Scrolls")] [TextArea] public List<string> textWorldObject;
     }
 }

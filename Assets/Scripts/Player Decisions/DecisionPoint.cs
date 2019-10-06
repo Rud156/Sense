@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
+using BeliefSystem;
 using Player;
+using UI;
 using UnityEngine;
 using Utils;
 
@@ -14,14 +17,18 @@ namespace PlayerDecisions
         public DecisionPoint topPoint;
         public DecisionPoint bottomPoint;
 
-        [Header("Positions")] public Transform decisionPointPosition;
+        [Header("Point Data")] public Transform decisionPointPosition;
+        public float beliefAmount;
+        public DecisionPointWorldType decisionPointWorldType;
+        public int resistanceLessBeliefReduceAmount;
 
         [Header("Items")] public DecisionItem decisionItem;
-        [TextArea] public string decisionPointDialogue;
+        [TextArea] public List<string> decisionPointDialogue;
         public float resetPlayerAfterTime = 2;
 
         private DecisionPointModifier _decisionPointModifier;
         private PlayerController _playerController;
+        private PlayerSenseController _playerSenseController;
 
         #region Unity Functions
 
@@ -32,6 +39,7 @@ namespace PlayerDecisions
             if (other.CompareTag(TagManager.Player))
             {
                 _playerController = other.GetComponent<PlayerController>();
+                _playerSenseController = other.GetComponent<PlayerSenseController>();
                 ActivateDecisionPoint();
             }
         }
@@ -41,6 +49,7 @@ namespace PlayerDecisions
             if (other.CompareTag(TagManager.Player))
             {
                 _playerController = null;
+                _playerSenseController = null;
             }
         }
 
@@ -77,6 +86,33 @@ namespace PlayerDecisions
             {
                 StartCoroutine(ActivateBadDecisionPoint());
             }
+
+            switch (decisionPointWorldType)
+            {
+                case DecisionPointWorldType.Hot:
+                {
+                    if (!_playerSenseController.HasHeatResistance)
+                    {
+                        BeliefController.Instance.ReduceBelief(resistanceLessBeliefReduceAmount);
+                    }
+                }
+                    break;
+
+                case DecisionPointWorldType.Normal:
+                    break;
+
+                case DecisionPointWorldType.Cold:
+                {
+                    if (!_playerSenseController.HasColdResistance)
+                    {
+                        BeliefController.Instance.ReduceBelief(resistanceLessBeliefReduceAmount);
+                    }
+                }
+                    break;
+
+                default:
+                    throw new ArgumentOutOfRangeException();
+            }
         }
 
         private void ActivateGoodDecisionPoint()
@@ -103,10 +139,51 @@ namespace PlayerDecisions
 
             DecisionController.Instance.RegisterDecisionPoint(this);
             DecisionController.Instance.DecrementOffsetOnSuccessPlayer(this);
+
+            BeliefController.Instance.AddBelief(beliefAmount);
+
+            // Use Decision Point Item
+            List<string> combinedDialogues = new List<string>(decisionPointDialogue);
+            combinedDialogues.AddRange(decisionItem.textWorldObject);
+            WorldInfoTextDisplay.Instance.DisplayDialogues(combinedDialogues);
+
+            switch (decisionItem.decisionItemType)
+            {
+                case DecisionItemType.Artifact:
+                case DecisionItemType.Scroll:
+                case DecisionItemType.Coins:
+                case DecisionItemType.Runes:
+                    break;
+
+                case DecisionItemType.Hearing:
+                    _playerSenseController.CollectHearingSense();
+                    break;
+
+                case DecisionItemType.HeatProtection:
+                    _playerSenseController.CollectHeatResistance();
+                    break;
+
+                case DecisionItemType.ColdProtection:
+                    _playerSenseController.CollectColdResistance();
+                    break;
+
+                case DecisionItemType.GrayScaleSight:
+                    _playerSenseController.CollectGrayScaleSight();
+                    break;
+
+                case DecisionItemType.ColoredSight:
+                    _playerSenseController.CollectColoredSight();
+                    break;
+
+                default:
+                    throw new ArgumentOutOfRangeException();
+            }
         }
 
         private IEnumerator ActivateBadDecisionPoint()
         {
+            BeliefController.Instance.ReduceBelief(beliefAmount);
+
             yield return new WaitForSeconds(resetPlayerAfterTime);
             DecisionController.Instance.RevertToLastCheckPoint();
         }

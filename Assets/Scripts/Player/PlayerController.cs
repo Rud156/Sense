@@ -1,13 +1,15 @@
 ﻿using System.Collections.Generic;
+using BeliefSystem;
 using PlayerModifier;
 using UnityEngine;
+using Utils;
 
 namespace Player
 {
     public class PlayerController : MonoBehaviour
     {
         [Header("Player")] public PlayerMovement playerMovement;
-        public float playerClickWeight = 0.3f;
+        public float minPlayerClickWeight = 0.3f;
         public PlayerAnimation playerAnimation;
 
         private List<MovementInterestModifier> _movementInterestModifiers;
@@ -15,10 +17,7 @@ namespace Player
 
         #region Unity Functions
 
-        private void Start()
-        {
-            _movementInterestModifiers = new List<MovementInterestModifier>();
-        }
+        private void Start() => _movementInterestModifiers = new List<MovementInterestModifier>();
 
         #endregion
 
@@ -34,7 +33,13 @@ namespace Player
 
         public void MakePlayerMoveToDestination(Vector3 targetPosition)
         {
-            float maxModifierWeight = playerClickWeight;
+            float currentBelief = BeliefController.Instance.CurrentBeliefAmount;
+            float maxBelief = BeliefController.Instance.MaxBeliefAmount;
+
+            float beliefRatio = currentBelief / maxBelief;
+            float mappedClickWeight = ExtensionFunctions.Map(beliefRatio, 0, 1, minPlayerClickWeight, 1);
+
+            float maxModifierWeight = mappedClickWeight;
             MovementInterestModifier maxModifier = null;
 
             foreach (MovementInterestModifier movementInterestModifier in _movementInterestModifiers)

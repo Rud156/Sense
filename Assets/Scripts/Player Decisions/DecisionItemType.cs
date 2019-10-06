@@ -2,9 +2,17 @@
 {
     public enum DecisionItemType
     {
+        // Collectable Items
         Artifact,
         Scroll,
         Coins,
-        Runes
+        Runes,
+
+        // Senses
+        Hearing,
+        HeatProtection,
+        ColdProtection,
+        GrayScaleSight,
+        ColoredSight
     }
 }
