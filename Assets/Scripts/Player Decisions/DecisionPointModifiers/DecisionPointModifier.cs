@@ -2,7 +2,7 @@ using System;
 using Player;
 using UnityEngine;
 
-namespace PlayerDecisions
+namespace PlayerDecisions.DecisionModifiers
 {
     public abstract class DecisionPointModifier : MonoBehaviour
     {

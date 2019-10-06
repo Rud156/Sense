@@ -1,4 +1,4 @@
-﻿namespace PlayerDecisions
+﻿namespace PlayerDecisions.DecisionItemData
 {
     public enum DecisionItemType
     {

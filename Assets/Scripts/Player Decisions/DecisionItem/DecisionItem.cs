@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace PlayerDecisions
+namespace PlayerDecisions.DecisionItemData
 {
     public class DecisionItem : ScriptableObject
     {
