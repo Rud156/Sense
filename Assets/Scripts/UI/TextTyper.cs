@@ -10,17 +10,19 @@ namespace UI
         public float characterDelay;
 
         public delegate void TypingCompleted();
+
         public TypingCompleted OnTypingCompleted;
 
         private bool _isTyping;
         private float _currentTypingTimer;
         private int _currentCharacterIndex;
 
-        private TextMeshProUGUI displayObject;
+        private TextMeshProUGUI _displayObject;
+        private bool _initialized = false;
 
         #region Unity Functions
 
-        private void Start() => displayObject = GetComponent<TextMeshProUGUI>();
+        private void Start() => Initialize();
 
         private void Update()
         {
@@ -75,11 +77,37 @@ namespace UI
 
         private void NotifyTypingCompleted() => OnTypingCompleted?.Invoke();
 
-        private void SetText(string text) => displayObject.text = text;
+        private void SetText(string text)
+        {
+            Initialize();
 
-        private void AddText(string text) => displayObject.text += text;
+            _displayObject.text = text;
+        }
 
-        private void AddText(char character) => displayObject.text += character;
+        private void AddText(string text)
+        {
+            Initialize();
+
+            _displayObject.text += text;
+        }
+
+        private void AddText(char character)
+        {
+            Initialize();
+
+            _displayObject.text += character;
+        }
+
+        private void Initialize()
+        {
+            if (_initialized)
+            {
+                return;
+            }
+
+            _displayObject = GetComponent<TextMeshProUGUI>();
+            _initialized = true;
+        }
 
         #endregion
     }

@@ -32,7 +32,7 @@ namespace Audio
 
         #region External Functions
 
-        public void PlayAudio(AudioClip audioClip, float playDelay, bool isSpatialAudio = false)
+        public void PlayAudio(AudioClip audioClip, float playDelay, bool isSpatialAudio = true)
         {
             _audioSource.clip = audioClip;
             _audioSource.PlayDelayed(playDelay);

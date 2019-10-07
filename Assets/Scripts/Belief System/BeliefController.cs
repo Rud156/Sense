@@ -11,6 +11,7 @@ namespace BeliefSystem
         public float maxBelief;
 
         public delegate void BeliefChanged(float currentBelief, float maxBelief);
+
         public BeliefChanged OnBeliefChanged;
 
         private float _currentBelief;
@@ -30,6 +31,11 @@ namespace BeliefSystem
 
         public void AddBelief(float beliefAmount)
         {
+            if (beliefAmount == 0)
+            {
+                return;
+            }
+
             if (_currentBelief + beliefAmount > _maxBelief)
             {
                 _currentBelief = _maxBelief;
@@ -44,6 +50,11 @@ namespace BeliefSystem
 
         public void ReduceBelief(float beliefAmount)
         {
+            if (beliefAmount == 0)
+            {
+                return;
+            }
+
             if (_currentBelief - beliefAmount < initialBelief)
             {
                 _currentBelief = initialBelief;

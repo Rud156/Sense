@@ -165,7 +165,10 @@ namespace PlayerDecisions
             DecisionController.Instance.RegisterDecisionPoint(this);
             DecisionController.Instance.DecrementOffsetOnSuccessPlayer(this);
 
-            BeliefController.Instance.AddBelief(beliefAmount);
+            if (!_decisionItem.IsItemCollected())
+            {
+                BeliefController.Instance.AddBelief(beliefAmount);
+            }
 
             // Use Decision Point Item
             List<string> combinedDialogues = new List<string>(decisionPointDialogue);

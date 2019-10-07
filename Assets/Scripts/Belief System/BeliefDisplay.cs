@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using UI;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,6 +8,7 @@ namespace BeliefSystem
     {
         public Slider beliefSlider;
         public BeliefController beliefController;
+        public ColorFlasher beliefFlasher;
 
         #region Unity Functions
 
@@ -31,6 +30,8 @@ namespace BeliefSystem
         {
             float displayRatio = currentBeliefAmount / maxBeliefAmount;
             beliefSlider.value = displayRatio;
+
+            beliefFlasher.StartFlashing();
         }
 
         #endregion

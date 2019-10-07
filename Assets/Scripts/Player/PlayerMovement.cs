@@ -37,7 +37,7 @@ namespace Player
             }
 
             MovePlayerTowardsTarget();
-            RotatePlayerTowardsTarget();
+//            RotatePlayerTowardsTarget();
         }
 
         #endregion

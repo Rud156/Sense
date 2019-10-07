@@ -14,7 +14,7 @@ namespace PlayerDecisions.DecisionModifiers
         {
             if (!decisionItem.IsItemCollected())
             {
-                GameObject effectInstance = Instantiate(effectPrefab, transform.position, Quaternion.identity);
+                GameObject effectInstance = Instantiate(effectPrefab, transform.position, effectPrefab.transform.rotation);
                 effectInstance.transform.localScale = Vector3.one * 10;
                 SfxAudioManager.Instance.PlaySound(collectionSound);
             }

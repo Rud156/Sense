@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Rendering.PostProcessing;
 
@@ -12,6 +13,7 @@ namespace Player
         public PostProcessVolume postProcessVolume;
 
         [Header("Hearing Sense")] public AudioListener audioListener;
+        public AudioListener farAwayListener;
 
         private bool _hasHeatResistance;
         private bool _hasColdResistance;
@@ -27,7 +29,9 @@ namespace Player
         private void Start()
         {
             playerLight.range = minLightRange;
+
             audioListener.enabled = false;
+            farAwayListener.enabled = true;
 
             _cameraColorGrading = postProcessVolume.profile.GetSetting<ColorGrading>();
             _cameraGrain = postProcessVolume.profile.GetSetting<Grain>();
@@ -44,6 +48,8 @@ namespace Player
         public void CollectHearingSense()
         {
             audioListener.enabled = true;
+            farAwayListener.enabled = false;
+
             _canPlayerHear = true;
         }
 

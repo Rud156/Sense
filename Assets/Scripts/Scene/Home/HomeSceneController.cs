@@ -9,6 +9,7 @@ namespace Scene.Home
 {
     public class HomeSceneController : MonoBehaviour
     {
+        public TextTyper titleTyper;
         public SingleFader sceneFader;
         public PostProcessVolume postProcessVolume;
         public float glitchSwitchTime;
@@ -28,6 +29,8 @@ namespace Scene.Home
             _cameraGrain = postProcessVolume.profile.GetSetting<Grain>();
 
             _currentSwitchTime = glitchSwitchTime;
+
+            titleTyper.StartTyping();
         }
 
         private void Update()
