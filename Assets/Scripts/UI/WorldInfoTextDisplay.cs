@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Xml;
 using UnityEngine;
 
 namespace UI
@@ -58,6 +59,11 @@ namespace UI
 
             _dialogueActive = true;
             _dialogueComplete = false;
+
+            textTyper.UpdateText(_currentDialogues[_currentDialogueIndex]);
+            textTyper.StartTyping();
+
+            textTyperAnimator.SetBool(DisplayParam, true);
         }
 
         #endregion
