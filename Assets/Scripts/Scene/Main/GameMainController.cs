@@ -1,5 +1,4 @@
-﻿using System;
-using UI;
+﻿using UI;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Utils;
@@ -12,6 +11,7 @@ namespace Scene.Main
         public SingleFader sceneFader;
 
         private bool _pauseMenuOpen;
+        private bool _isGameOver;
 
         #region Unity Functions
 
@@ -44,7 +44,17 @@ namespace Scene.Main
 
         #region External Functions
 
-        public void QuitToMenu() => sceneFader.StartFadeOut(true);
+        public void QuitToMenu()
+        {
+            sceneFader.StartFadeOut(true);
+            _isGameOver = false;
+        }
+
+        public void SwitchToGameOverScene()
+        {
+            sceneFader.StartFadeOut(true);
+            _isGameOver = true;
+        }
 
         #endregion
 
@@ -53,7 +63,14 @@ namespace Scene.Main
         private void SwitchSceneOnFadeOut()
         {
             sceneFader.OnFadeOutComplete -= SwitchSceneOnFadeOut;
-            SceneManager.LoadScene(0);
+            if (_isGameOver)
+            {
+                SceneManager.LoadScene(2);
+            }
+            else
+            {
+                SceneManager.LoadScene(0);
+            }
         }
 
         #endregion
