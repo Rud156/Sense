@@ -1,4 +1,4 @@
-﻿namespace CustomCamera
+﻿ namespace CustomCamera
 {
     public struct CameraShakeModifier
     {

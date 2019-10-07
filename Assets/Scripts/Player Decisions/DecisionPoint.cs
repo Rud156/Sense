@@ -82,6 +82,8 @@ namespace PlayerDecisions
 
         private void ActivateDecisionPoint()
         {
+            _playerController.StopPlayerMovement();
+
             bool isSafeDecisionPoint = _decisionPointModifier.AffectPlayer(_playerController.transform.position, _playerController);
             if (isSafeDecisionPoint)
             {

@@ -64,6 +64,8 @@ namespace Player
             }
         }
 
+        public void StopPlayerMovement() => playerMovement.StopPlayerMovement();
+
         public void SnapAndRevivePlayerToPosition(Vector3 position)
         {
             transform.position = position;

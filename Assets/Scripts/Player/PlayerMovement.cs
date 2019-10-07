@@ -53,6 +53,8 @@ namespace Player
             _targetPosition = position;
         }
 
+        public void StopPlayerMovement() => playerAgent.ResetPath();
+
         public float GetWalkingSpeed() => walkingSpeed;
 
         public float GetRunningSpeed() => runningSpeed;

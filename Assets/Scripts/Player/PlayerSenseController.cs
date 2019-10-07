@@ -15,6 +15,9 @@ namespace Player
 
         private bool _hasHeatResistance;
         private bool _hasColdResistance;
+        private bool _canPlayerHear;
+        private bool _hasGrayScaleSight;
+        private bool _hasColoredSight;
 
         private ColorGrading _cameraColorGrading;
         private Grain _cameraGrain;
@@ -38,7 +41,13 @@ namespace Player
 
         #region External Functions
 
-        public void CollectHearingSense() => audioListener.enabled = true;
+        public void CollectHearingSense()
+        {
+            audioListener.enabled = true;
+            _canPlayerHear = true;
+        }
+
+        public bool CanPlayerHear => _canPlayerHear;
 
         public void CollectHeatResistance() => _hasHeatResistance = true;
 
@@ -50,11 +59,20 @@ namespace Player
 
         public void CollectGrayScaleSight()
         {
+            if (_hasColoredSight)
+            {
+                return;
+            }
+
             playerLight.range = maxLightRange;
             _cameraColorGrading.saturation.value = -100;
             _cameraGrain.intensity.value = 1;
             _cameraGrain.size.value = 3;
+
+            _hasGrayScaleSight = true;
         }
+
+        public bool HasGrayScaleSight => _hasGrayScaleSight;
 
         public void CollectColoredSight()
         {
@@ -62,7 +80,12 @@ namespace Player
             _cameraColorGrading.saturation.value = 0;
             _cameraGrain.intensity.value = 0;
             _cameraGrain.size.value = 0.3f;
+
+            _hasGrayScaleSight = true;
+            _hasColoredSight = true;
         }
+
+        public bool HasColoredSight => _hasColoredSight;
 
         #endregion
     }
