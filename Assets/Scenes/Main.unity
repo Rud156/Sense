@@ -965,7 +965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: ccc1daf4e0eb1d64ba91afd5a2d9dd27, type: 3}
 --- !u!1 &21734670
 GameObject:
   m_ObjectHideFlags: 0
@@ -1780,7 +1780,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: ccc1daf4e0eb1d64ba91afd5a2d9dd27, type: 3}
 --- !u!1001 &28838851
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4912,7 +4912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: ccc1daf4e0eb1d64ba91afd5a2d9dd27, type: 3}
 --- !u!1 &97341904
 GameObject:
   m_ObjectHideFlags: 0
@@ -7160,6 +7160,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &144892120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144892116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c52d929bf8ea30499a89df975d5b46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 137782, guid: cdea235694a86bd4eb61ae7cffd8de49, type: 3}
+  collectionSound: {fileID: 8300000, guid: e538e1e2631cae347af3be310aac97b6, type: 3}
 --- !u!1001 &145938045
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7866,6 +7880,47 @@ MonoBehaviour:
   textWorldObject:
   - Woah. I found some shiny stones...
   - Feels very cold. Maybe I can use it for later...
+--- !u!114 &156620709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156620706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c52d929bf8ea30499a89df975d5b46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 103688, guid: 61d06c6d35a503b47a23c676bb289e02, type: 3}
+  collectionSound: {fileID: 8300000, guid: 1d775bec6c0440d4095f8f1a6a67aa3b, type: 3}
+--- !u!114 &156620710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156620706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.8
+  requiredAbilities: 0000000001000000
+--- !u!65 &156620711
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156620706}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.94, y: 1.36, z: 7.82}
+  m_Center: {x: 2.47, y: 0.000000007450581, z: -1.35}
 --- !u!1001 &157377958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12673,6 +12728,47 @@ MonoBehaviour:
   decisionItemType: 1
   textWorldObject:
   - Stone that has strange incarnation on it... Another one...
+--- !u!114 &301472659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301472656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c52d929bf8ea30499a89df975d5b46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 103688, guid: 61d06c6d35a503b47a23c676bb289e02, type: 3}
+  collectionSound: {fileID: 8300000, guid: 1d775bec6c0440d4095f8f1a6a67aa3b, type: 3}
+--- !u!114 &301472660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301472656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.5
+  requiredAbilities: 01000000
+--- !u!65 &301472661
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301472656}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 46.16, y: 20.13, z: 27.6}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &303886034 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 23ce7ae572a5eca408040f07dee8e3e1,
@@ -13609,7 +13705,7 @@ MonoBehaviour:
   leftPoint: {fileID: 0}
   rightPoint: {fileID: 0}
   topPoint: {fileID: 0}
-  bottomPoint: {fileID: 0}
+  bottomPoint: {fileID: 867443151}
   decisionPointPosition: {fileID: 0}
   beliefAmount: 10
   decisionPointWorldType: 0
@@ -13639,33 +13735,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 338230730}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21587e45ace81a64d9a290551b23c78f, type: 3}
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftPoint: {fileID: 0}
-  rightPoint: {fileID: 0}
-  topPoint: {fileID: 0}
-  bottomPoint: {fileID: 0}
-  decisionPointPosition: {fileID: 338230729}
-  beliefAmount: 15
-  decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
-  decisionPointDialogue: []
-  resetPlayerAfterTime: 2
---- !u!114 &338230734
-MonoBehaviour:
+  interestWeight: 0.8
+  requiredAbilities: 0000000001000000
+--- !u!65 &338230734
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 338230730}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: daf300f15dec82e419f32e99d8391845, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  decisionItemType: 0
-  textWorldObject: []
+  serializedVersion: 2
+  m_Size: {x: 116.43758, y: 128.22209, z: 77.0046}
+  m_Center: {x: -0.000000055879347, y: -33.10875, z: 7.5}
 --- !u!82 &338230735
 AudioSource:
   m_ObjectHideFlags: 0
@@ -13828,7 +13915,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: f3b02a9771191194d944356d23fe1053, type: 3}
 --- !u!1 &338606482
 GameObject:
   m_ObjectHideFlags: 0
@@ -14243,6 +14330,47 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &344005065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344005061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c52d929bf8ea30499a89df975d5b46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 103688, guid: 61d06c6d35a503b47a23c676bb289e02, type: 3}
+  collectionSound: {fileID: 8300000, guid: 6101916b26ccd114eb294382c3214def, type: 3}
+--- !u!114 &344005066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344005061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.7
+  requiredAbilities: 02000000
+--- !u!65 &344005067
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344005061}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.72, y: 3.68, z: 13.55}
+  m_Center: {x: 0, y: 0, z: -0.000000059604645}
 --- !u!1001 &347554539
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15266,7 +15394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: ccc1daf4e0eb1d64ba91afd5a2d9dd27, type: 3}
 --- !u!4 &367070062 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07,
@@ -16946,6 +17074,47 @@ MonoBehaviour:
   decisionItemType: 1
   textWorldObject:
   - Hey, I found an ancient book!!!
+--- !u!114 &402322556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402322553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c52d929bf8ea30499a89df975d5b46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 137782, guid: cdea235694a86bd4eb61ae7cffd8de49, type: 3}
+  collectionSound: {fileID: 8300000, guid: e538e1e2631cae347af3be310aac97b6, type: 3}
+--- !u!114 &402322557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402322553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.45
+  requiredAbilities: 01000000
+--- !u!65 &402322558
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402322553}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.9, y: 2.8, z: 5.39}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &406621329
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18615,7 +18784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: f3b02a9771191194d944356d23fe1053, type: 3}
 --- !u!1001 &452938566
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19189,7 +19358,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: d92f48504366fd1408a4b17a44d71c0c, type: 3}
 --- !u!1 &460260949
 GameObject:
   m_ObjectHideFlags: 0
@@ -21754,6 +21923,20 @@ MonoBehaviour:
   decisionItemType: 2
   textWorldObject:
   - It's a book detailing the story of Xing
+--- !u!114 &509046054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509046051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c52d929bf8ea30499a89df975d5b46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 135520, guid: 71f41880794ca1941a088c95db570547, type: 3}
+  collectionSound: {fileID: 8300000, guid: 8007ae6f0f59da14b8267d4d91c414ce, type: 3}
 --- !u!1001 &513020233
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22885,7 +23068,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: d92f48504366fd1408a4b17a44d71c0c, type: 3}
+--- !u!114 &531060999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531060995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.8
+  requiredAbilities: 0100000002000000
+--- !u!65 &531061000
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531060995}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 19.21, y: 20.09, z: 21.41}
+  m_Center: {x: -0.04237652, y: 1.9192275, z: -0.03388566}
+--- !u!114 &531061001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531060995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.7
+  requiredAbilities: 0100000002000000
 --- !u!1001 &531743103
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24311,7 +24535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: d92f48504366fd1408a4b17a44d71c0c, type: 3}
 --- !u!1001 &558895602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25636,7 +25860,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: f3b02a9771191194d944356d23fe1053, type: 3}
+--- !u!114 &608441650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608441646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.8
+  requiredAbilities: 0100000002000000
+--- !u!65 &608441651
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608441646}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 19.21, y: 20.09, z: 21.41}
+  m_Center: {x: -0.04237652, y: 1.9192275, z: -0.03388566}
+--- !u!114 &608441652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608441646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.7
+  requiredAbilities: 0100000002000000
 --- !u!1 &610736509
 GameObject:
   m_ObjectHideFlags: 0
@@ -28921,7 +29186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: f3b02a9771191194d944356d23fe1053, type: 3}
 --- !u!1001 &706360350
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29441,7 +29706,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: ccc1daf4e0eb1d64ba91afd5a2d9dd27, type: 3}
+--- !u!114 &715618586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 715618581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.5
+  requiredAbilities: 00000000
+--- !u!65 &715618587
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 715618581}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 2.96, z: 3.85}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &716154405 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07,
@@ -29643,7 +29935,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: d92f48504366fd1408a4b17a44d71c0c, type: 3}
+--- !u!114 &717885761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717885756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.5
+  requiredAbilities: 0000000002000000
+--- !u!65 &717885762
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717885756}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 17.82, y: 5.89, z: 17.04}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &718476590
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30602,6 +30921,47 @@ MonoBehaviour:
   decisionItemType: 1
   textWorldObject:
   - An emerald. I can sell it!!!
+--- !u!114 &744228400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744228397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c52d929bf8ea30499a89df975d5b46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 137782, guid: cdea235694a86bd4eb61ae7cffd8de49, type: 3}
+  collectionSound: {fileID: 8300000, guid: e538e1e2631cae347af3be310aac97b6, type: 3}
+--- !u!114 &744228401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744228397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.9
+  requiredAbilities: 0100000002000000
+--- !u!65 &744228402
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744228397}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.33, y: 1.6, z: 6.01}
+  m_Center: {x: 2.04, y: 0, z: 0}
 --- !u!4 &745721551 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07,
@@ -32516,6 +32876,20 @@ MonoBehaviour:
   decisionItemType: 1
   textWorldObject:
   - Oh. How nice I found a the Scroll of Xangh
+--- !u!114 &793297114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793297111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c52d929bf8ea30499a89df975d5b46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 103688, guid: 61d06c6d35a503b47a23c676bb289e02, type: 3}
+  collectionSound: {fileID: 8300000, guid: 6101916b26ccd114eb294382c3214def, type: 3}
 --- !u!4 &795022978 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: e4d2eca69d26b424b9f8abd57bdae0c1,
@@ -34270,7 +34644,7 @@ MonoBehaviour:
   leftPoint: {fileID: 0}
   rightPoint: {fileID: 0}
   topPoint: {fileID: 0}
-  bottomPoint: {fileID: 0}
+  bottomPoint: {fileID: 1558071156}
   decisionPointPosition: {fileID: 833947835}
   beliefAmount: 10
   decisionPointWorldType: 1
@@ -34453,7 +34827,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: f3b02a9771191194d944356d23fe1053, type: 3}
+--- !u!114 &833947841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833947836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.3
+  requiredAbilities: 00000000
+--- !u!65 &833947842
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833947836}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 15.25, y: 5.59, z: 11.87}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &835246640
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34722,6 +35123,47 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &835246646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835246642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c52d929bf8ea30499a89df975d5b46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 103688, guid: 61d06c6d35a503b47a23c676bb289e02, type: 3}
+  collectionSound: {fileID: 8300000, guid: 6101916b26ccd114eb294382c3214def, type: 3}
+--- !u!114 &835246647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835246642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.6
+  requiredAbilities: 01000000
+--- !u!65 &835246648
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835246642}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.42, y: 7.68, z: 10.24}
+  m_Center: {x: -1.9428903e-16, y: 0.00000001490116, z: 4.3}
 --- !u!4 &836567179 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07,
@@ -35174,7 +35616,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: f3b02a9771191194d944356d23fe1053, type: 3}
+--- !u!114 &841523885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841523880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.5
+  requiredAbilities: 00000000
+--- !u!65 &841523886
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841523880}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.24, y: 2.63, z: 4.79}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &845280201
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35939,6 +36408,47 @@ MonoBehaviour:
   decisionItemType: 1
   textWorldObject:
   - Another badly written book
+--- !u!114 &867196554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867196551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c52d929bf8ea30499a89df975d5b46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 137782, guid: cdea235694a86bd4eb61ae7cffd8de49, type: 3}
+  collectionSound: {fileID: 8300000, guid: e538e1e2631cae347af3be310aac97b6, type: 3}
+--- !u!114 &867196555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867196551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.45
+  requiredAbilities: 01000000
+--- !u!65 &867196556
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867196551}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.9, y: 2.8, z: 5.39}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &867443149
 GameObject:
   m_ObjectHideFlags: 0
@@ -36779,6 +37289,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &875872534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875872530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c52d929bf8ea30499a89df975d5b46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 135520, guid: 71f41880794ca1941a088c95db570547, type: 3}
+  collectionSound: {fileID: 8300000, guid: 8007ae6f0f59da14b8267d4d91c414ce, type: 3}
 --- !u!4 &876266461 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 23ce7ae572a5eca408040f07dee8e3e1,
@@ -37639,6 +38163,47 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &893268856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893268852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c52d929bf8ea30499a89df975d5b46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 137782, guid: cdea235694a86bd4eb61ae7cffd8de49, type: 3}
+  collectionSound: {fileID: 8300000, guid: e538e1e2631cae347af3be310aac97b6, type: 3}
+--- !u!114 &893268857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893268852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.35
+  requiredAbilities: 0000000001000000
+--- !u!65 &893268858
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893268852}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.02, y: 2.43, z: 4.82}
+  m_Center: {x: -0.000000014901161, y: 0.000000115484, z: 2.220446e-16}
 --- !u!1001 &896248495
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37757,6 +38322,47 @@ MonoBehaviour:
   decisionItemType: 1
   textWorldObject:
   - Oh. How nice I found a the second part of Scroll of Xangh
+--- !u!114 &896248500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896248497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c52d929bf8ea30499a89df975d5b46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 103688, guid: 61d06c6d35a503b47a23c676bb289e02, type: 3}
+  collectionSound: {fileID: 8300000, guid: 6101916b26ccd114eb294382c3214def, type: 3}
+--- !u!114 &896248501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896248497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.5
+  requiredAbilities: 01000000
+--- !u!65 &896248502
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896248497}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.32, y: 0.93, z: 2.12}
+  m_Center: {x: 0.0018781947, y: 0.00074483827, z: 0.059941664}
 --- !u!1 &896327137
 GameObject:
   m_ObjectHideFlags: 0
@@ -39656,7 +40262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: d92f48504366fd1408a4b17a44d71c0c, type: 3}
 --- !u!1001 &948627889
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39936,7 +40542,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: ccc1daf4e0eb1d64ba91afd5a2d9dd27, type: 3}
+--- !u!114 &948635627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948635622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.5
+  requiredAbilities: 0000000002000000
+--- !u!65 &948635628
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948635622}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 17.82, y: 5.89, z: 17.04}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &948776740
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40460,6 +41093,47 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &956102151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956102147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c52d929bf8ea30499a89df975d5b46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 103688, guid: 61d06c6d35a503b47a23c676bb289e02, type: 3}
+  collectionSound: {fileID: 8300000, guid: 6101916b26ccd114eb294382c3214def, type: 3}
+--- !u!114 &956102152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956102147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.5
+  requiredAbilities: 01000000
+--- !u!65 &956102153
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956102147}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.42, y: 7.68, z: 10.24}
+  m_Center: {x: -1.9428903e-16, y: 0.00000001490116, z: 4.3}
 --- !u!1001 &959413331
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41522,7 +42196,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: f3b02a9771191194d944356d23fe1053, type: 3}
+--- !u!114 &987044993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987044989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.8
+  requiredAbilities: 0100000002000000
+--- !u!65 &987044994
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987044989}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 19.21, y: 20.09, z: 21.41}
+  m_Center: {x: -0.04237652, y: 1.9192275, z: -0.03388566}
+--- !u!114 &987044995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987044989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.7
+  requiredAbilities: 0100000002000000
 --- !u!1 &991100216
 GameObject:
   m_ObjectHideFlags: 0
@@ -44428,7 +45143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: d92f48504366fd1408a4b17a44d71c0c, type: 3}
 --- !u!1001 &1055386332
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45855,6 +46570,47 @@ MonoBehaviour:
   textWorldObject:
   - It's a book detailing the story of ...
   - The rest is too smughed to be read...
+--- !u!114 &1096209326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096209323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c52d929bf8ea30499a89df975d5b46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 103688, guid: 61d06c6d35a503b47a23c676bb289e02, type: 3}
+  collectionSound: {fileID: 8300000, guid: 1d775bec6c0440d4095f8f1a6a67aa3b, type: 3}
+--- !u!114 &1096209327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096209323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.45
+  requiredAbilities: 01000000
+--- !u!65 &1096209328
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096209323}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.9, y: 2.8, z: 5.39}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1099880445
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47549,6 +48305,20 @@ MonoBehaviour:
   decisionItemType: 1
   textWorldObject:
   - Oh. How nice I found a the Scroll of Xieng
+--- !u!114 &1147552204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147552201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c52d929bf8ea30499a89df975d5b46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 103688, guid: 61d06c6d35a503b47a23c676bb289e02, type: 3}
+  collectionSound: {fileID: 8300000, guid: 6101916b26ccd114eb294382c3214def, type: 3}
 --- !u!4 &1149729717 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 462caf5e9b6e21d47a0fd752618407ed,
@@ -51347,6 +52117,47 @@ MonoBehaviour:
   textWorldObject:
   - Woah. A moonstone
   - I've been getting quite a few items...
+--- !u!114 &1280349855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280349852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c52d929bf8ea30499a89df975d5b46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 135520, guid: 71f41880794ca1941a088c95db570547, type: 3}
+  collectionSound: {fileID: 8300000, guid: 8007ae6f0f59da14b8267d4d91c414ce, type: 3}
+--- !u!114 &1280349856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280349852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.5
+  requiredAbilities: 01000000
+--- !u!65 &1280349857
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280349852}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 13.96, y: 32.79, z: 30.6}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1280793438
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53937,7 +54748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: f3b02a9771191194d944356d23fe1053, type: 3}
 --- !u!1001 &1341120687
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54716,7 +55527,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.368, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -56092,6 +56903,47 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1392731934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392731930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c52d929bf8ea30499a89df975d5b46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 135520, guid: 71f41880794ca1941a088c95db570547, type: 3}
+  collectionSound: {fileID: 8300000, guid: 8007ae6f0f59da14b8267d4d91c414ce, type: 3}
+--- !u!114 &1392731935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392731930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.9
+  requiredAbilities: 0000000001000000
+--- !u!65 &1392731936
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392731930}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 20.61, y: 39.6, z: 31}
+  m_Center: {x: 0.013665522, y: 0.0058667352, z: 0.51047647}
 --- !u!1001 &1394294991
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57225,6 +58077,20 @@ MonoBehaviour:
   decisionItemType: 1
   textWorldObject:
   - Stone that has strange incarnation on it...
+--- !u!114 &1426560268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426560265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c52d929bf8ea30499a89df975d5b46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 135520, guid: 71f41880794ca1941a088c95db570547, type: 3}
+  collectionSound: {fileID: 8300000, guid: 8007ae6f0f59da14b8267d4d91c414ce, type: 3}
 --- !u!1 &1427151110
 GameObject:
   m_ObjectHideFlags: 0
@@ -58715,7 +59581,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: ccc1daf4e0eb1d64ba91afd5a2d9dd27, type: 3}
+--- !u!114 &1459548354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459548349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.7
+  requiredAbilities: 00000000
+--- !u!65 &1459548355
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459548349}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 14.48, y: 28.62, z: 25.21}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1460662355
 GameObject:
   m_ObjectHideFlags: 0
@@ -59209,6 +60102,20 @@ MonoBehaviour:
   decisionItemType: 2
   textWorldObject:
   - Another old book...
+--- !u!114 &1471782630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471782627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c52d929bf8ea30499a89df975d5b46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 135520, guid: 71f41880794ca1941a088c95db570547, type: 3}
+  collectionSound: {fileID: 8300000, guid: 8007ae6f0f59da14b8267d4d91c414ce, type: 3}
 --- !u!1001 &1472264688
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60062,7 +60969,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: d92f48504366fd1408a4b17a44d71c0c, type: 3}
 --- !u!1001 &1497786659
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62439,7 +63346,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: f3b02a9771191194d944356d23fe1053, type: 3}
+--- !u!114 &1546885620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546885615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.5
+  requiredAbilities: 00000000
+--- !u!65 &1546885621
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546885615}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.3, y: 3.37, z: 4.39}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1549726902
 GameObject:
   m_ObjectHideFlags: 0
@@ -62967,6 +63901,47 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1558071159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558071155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c52d929bf8ea30499a89df975d5b46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 135520, guid: 71f41880794ca1941a088c95db570547, type: 3}
+  collectionSound: {fileID: 8300000, guid: 8007ae6f0f59da14b8267d4d91c414ce, type: 3}
+--- !u!114 &1558071160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558071155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.7
+  requiredAbilities: 01000000
+--- !u!65 &1558071161
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558071155}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.72, y: 3.68, z: 13.55}
+  m_Center: {x: 0, y: 0, z: -0.000000059604645}
 --- !u!4 &1562842241 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07,
@@ -64291,6 +65266,20 @@ MonoBehaviour:
   decisionItemType: 1
   textWorldObject:
   - Glowing stone!?
+--- !u!114 &1584673227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584673224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c52d929bf8ea30499a89df975d5b46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 137782, guid: cdea235694a86bd4eb61ae7cffd8de49, type: 3}
+  collectionSound: {fileID: 8300000, guid: e538e1e2631cae347af3be310aac97b6, type: 3}
 --- !u!1001 &1587553444
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -65120,7 +66109,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: f3b02a9771191194d944356d23fe1053, type: 3}
+--- !u!114 &1614059651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614059646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.6
+  requiredAbilities: 000000000100000002000000
+--- !u!65 &1614059652
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614059646}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.82, y: 2.03, z: 7.72}
+  m_Center: {x: 0, y: 0.039532293, z: 1.94}
 --- !u!1001 &1614298397
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -66677,33 +67693,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 1665869569}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21587e45ace81a64d9a290551b23c78f, type: 3}
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftPoint: {fileID: 0}
-  rightPoint: {fileID: 0}
-  topPoint: {fileID: 1997656824}
-  bottomPoint: {fileID: 0}
-  decisionPointPosition: {fileID: 1665869568}
-  beliefAmount: 5
-  decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
-  decisionPointDialogue: []
-  resetPlayerAfterTime: 2
---- !u!114 &1665869573
-MonoBehaviour:
+  interestWeight: 0.35
+  requiredAbilities: 00000000
+--- !u!65 &1665869573
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1665869569}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: daf300f15dec82e419f32e99d8391845, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  decisionItemType: 0
-  textWorldObject: []
+  serializedVersion: 2
+  m_Size: {x: 6.4, y: 2.91, z: 2.68}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!82 &1665869574
 AudioSource:
   m_ObjectHideFlags: 0
@@ -66866,7 +67873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: d92f48504366fd1408a4b17a44d71c0c, type: 3}
 --- !u!1001 &1674533870
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67936,6 +68943,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1695667507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695667503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c52d929bf8ea30499a89df975d5b46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 103688, guid: 61d06c6d35a503b47a23c676bb289e02, type: 3}
+  collectionSound: {fileID: 8300000, guid: 6101916b26ccd114eb294382c3214def, type: 3}
 --- !u!1 &1696455592
 GameObject:
   m_ObjectHideFlags: 0
@@ -71150,6 +72171,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1776021244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776021240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c52d929bf8ea30499a89df975d5b46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 103688, guid: 61d06c6d35a503b47a23c676bb289e02, type: 3}
+  collectionSound: {fileID: 8300000, guid: 1d775bec6c0440d4095f8f1a6a67aa3b, type: 3}
 --- !u!1001 &1778082052
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73591,6 +74626,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1837939396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837939392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c52d929bf8ea30499a89df975d5b46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 137782, guid: cdea235694a86bd4eb61ae7cffd8de49, type: 3}
+  collectionSound: {fileID: 8300000, guid: e538e1e2631cae347af3be310aac97b6, type: 3}
 --- !u!1001 &1838160373
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -75645,7 +76694,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: d92f48504366fd1408a4b17a44d71c0c, type: 3}
+--- !u!114 &1882570539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882570534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.35
+  requiredAbilities: 00000000
+--- !u!65 &1882570540
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882570534}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 6.06, z: 1.41}
+  m_Center: {x: -0.006341815, y: -0.0010051283, z: 0.008390466}
 --- !u!1001 &1885008328
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -76433,7 +77509,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1903356822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76729,6 +77805,20 @@ MonoBehaviour:
   decisionItemType: 1
   textWorldObject:
   - Oh. How nice I found another scroll
+--- !u!114 &1907671272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907671269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c52d929bf8ea30499a89df975d5b46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 103688, guid: 61d06c6d35a503b47a23c676bb289e02, type: 3}
+  collectionSound: {fileID: 8300000, guid: 1d775bec6c0440d4095f8f1a6a67aa3b, type: 3}
 --- !u!1 &1912848327
 GameObject:
   m_ObjectHideFlags: 0
@@ -78034,7 +79124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: ccc1daf4e0eb1d64ba91afd5a2d9dd27, type: 3}
 --- !u!1001 &1935816605
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -78711,7 +79801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: ccc1daf4e0eb1d64ba91afd5a2d9dd27, type: 3}
 --- !u!1001 &1946974835
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -78831,6 +79921,47 @@ MonoBehaviour:
   textWorldObject:
   - An old book.. Too many books...
   - Maybe I can do something with this...
+--- !u!114 &1946974840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946974837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c52d929bf8ea30499a89df975d5b46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 103688, guid: 61d06c6d35a503b47a23c676bb289e02, type: 3}
+  collectionSound: {fileID: 8300000, guid: 1d775bec6c0440d4095f8f1a6a67aa3b, type: 3}
+--- !u!114 &1946974841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946974837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.45
+  requiredAbilities: 01000000
+--- !u!65 &1946974842
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946974837}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.9, y: 2.8, z: 5.39}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1948964870
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -86120,6 +87251,8 @@ GameObject:
   - component: {fileID: 842354654038788876}
   - component: {fileID: 842354654038788878}
   - component: {fileID: 842354654038788879}
+  - component: {fileID: 842354654038788881}
+  - component: {fileID: 842354654038788880}
   m_Layer: 0
   m_Name: Pf_Trap_Fire (1)
   m_TagString: Untagged
@@ -86325,7 +87458,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: d92f48504366fd1408a4b17a44d71c0c, type: 3}
+--- !u!114 &842354654038788880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842354654038788875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.45
+  requiredAbilities: 01000000
+--- !u!65 &842354654038788881
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842354654038788875}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.37, y: 1.46, z: 6.45}
+  m_Center: {x: -1.8326639e-11, y: 0.039532293, z: 0}
 --- !u!4 &842354654039097131
 Transform:
   m_ObjectHideFlags: 0
@@ -86385,6 +87545,8 @@ GameObject:
   - component: {fileID: 5958226605729176102}
   - component: {fileID: 5958226605729176104}
   - component: {fileID: 5958226605729176105}
+  - component: {fileID: 5958226605729176107}
+  - component: {fileID: 5958226605729176106}
   m_Layer: 0
   m_Name: Pf_Trap_Fire
   m_TagString: Untagged
@@ -86590,7 +87752,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ea2c8219559a34eb982f036d2889f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathAudioClip: {fileID: 0}
+  deathAudioClip: {fileID: 8300000, guid: ccc1daf4e0eb1d64ba91afd5a2d9dd27, type: 3}
+--- !u!114 &5958226605729176106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5958226605729176101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interestWeight: 0.45
+  requiredAbilities: 0000000001000000
+--- !u!65 &5958226605729176107
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5958226605729176101}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.02, y: 4.13, z: 10.08}
+  m_Center: {x: 0, y: 0.039532293, z: 0}
 --- !u!23 &5958226605731310693
 MeshRenderer:
   m_ObjectHideFlags: 0
