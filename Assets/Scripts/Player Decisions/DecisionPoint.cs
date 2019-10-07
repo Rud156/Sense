@@ -11,7 +11,6 @@ using Utils;
 
 namespace PlayerDecisions
 {
-    [RequireComponent(typeof(DecisionPointModifier))]
     public class DecisionPoint : MonoBehaviour
     {
         [Header("Nearby Decision Points")] public DecisionPoint leftPoint;
@@ -22,19 +21,23 @@ namespace PlayerDecisions
         [Header("Point Data")] public Transform decisionPointPosition;
         public float beliefAmount;
         public DecisionPointWorldType decisionPointWorldType;
-        public int resistanceLessBeliefReduceAmount;
+        public int resistanceLessBeliefReduceAmount = 5;
 
-        [Header("Items")] public DecisionItem decisionItem;
-        [TextArea] public List<string> decisionPointDialogue;
+        [Header("Items")] [TextArea] public List<string> decisionPointDialogue;
         public float resetPlayerAfterTime = 2;
 
+        private DecisionItem _decisionItem;
         private DecisionPointModifier _decisionPointModifier;
         private PlayerController _playerController;
         private PlayerSenseController _playerSenseController;
 
         #region Unity Functions
 
-        private void Start() => _decisionPointModifier = GetComponent<DecisionPointModifier>();
+        private void Start()
+        {
+            _decisionPointModifier = GetComponent<DecisionPointModifier>();
+            _decisionItem = GetComponent<DecisionItem>();
+        }
 
         private void OnTriggerEnter(Collider other)
         {
@@ -69,7 +72,7 @@ namespace PlayerDecisions
 
         public DecisionPoint BottomDecisionPoint => bottomPoint;
 
-        public DecisionItem GetDecisionItem() => decisionItem;
+        public DecisionItem GetDecisionItem() => _decisionItem;
 
         public DecisionPointModifier GetDecisionPointModifier() => _decisionPointModifier;
 
@@ -146,10 +149,14 @@ namespace PlayerDecisions
 
             // Use Decision Point Item
             List<string> combinedDialogues = new List<string>(decisionPointDialogue);
-            combinedDialogues.AddRange(decisionItem.textWorldObject);
+            if (!_decisionItem.IsItemCollected())
+            {
+                combinedDialogues.AddRange(_decisionItem.textWorldObject);
+            }
+
             WorldInfoTextDisplay.Instance.DisplayDialogues(combinedDialogues);
 
-            switch (decisionItem.decisionItemType)
+            switch (_decisionItem.decisionItemType)
             {
                 case DecisionItemType.Artifact:
                 case DecisionItemType.Scroll:
@@ -180,6 +187,8 @@ namespace PlayerDecisions
                 default:
                     throw new ArgumentOutOfRangeException();
             }
+
+            _decisionItem.MarkItemAsCollected(true);
         }
 
         private IEnumerator ActivateBadDecisionPoint()

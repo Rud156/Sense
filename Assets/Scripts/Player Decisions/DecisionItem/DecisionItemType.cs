@@ -2,6 +2,9 @@
 {
     public enum DecisionItemType
     {
+        // Danger
+        Death,
+
         // Collectable Items
         Artifact,
         Scroll,
@@ -13,6 +16,9 @@
         HeatProtection,
         ColdProtection,
         GrayScaleSight,
-        ColoredSight
+        ColoredSight,
+
+        // Nothing
+        None
     }
 }

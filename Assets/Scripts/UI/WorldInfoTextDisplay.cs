@@ -47,6 +47,11 @@ namespace UI
 
         public void DisplayDialogues(List<string> dialogues)
         {
+            if (dialogues.Count <= 0)
+            {
+                return;
+            }
+
             _currentDialogues = dialogues;
             _currentDialogueIndex = 0;
             _currentDialogueWaitTime = dialogueWaitTime;

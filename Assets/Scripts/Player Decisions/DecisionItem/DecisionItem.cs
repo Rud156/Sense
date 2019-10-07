@@ -3,10 +3,20 @@ using UnityEngine;
 
 namespace PlayerDecisions.DecisionItemData
 {
-    public class DecisionItem : ScriptableObject
+    // Actually Should be A Scriptable Object
+    public class DecisionItem : MonoBehaviour
     {
         public DecisionItemType decisionItemType;
+        [TextArea] public List<string> textWorldObject;
 
-        [Header("Scrolls")] [TextArea] public List<string> textWorldObject;
+        private bool _itemCollected;
+
+        #region External Functions
+
+        public void MarkItemAsCollected(bool collectedStatus) => _itemCollected = collectedStatus;
+
+        public bool IsItemCollected() => _itemCollected;
+
+        #endregion
     }
 }

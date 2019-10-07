@@ -1,31 +1,19 @@
-﻿using UnityEngine;
+﻿using PlayerDecisions;
+using UnityEngine;
 using Utils;
 
 namespace PlayerModifier
 {
-    [RequireComponent(typeof(SphereCollider))]
+    [RequireComponent(typeof(Collider))]
     public class PlayerMovementInterestModifier : MonoBehaviour
     {
         [Range(0, 1)] public float interestWeight;
-        public float interestRange;
+        public DecisionPoint decisionPoint;
 
-        private SphereCollider _sphereCollider;
         private Player.PlayerController _playerController;
         private bool _modifierUsed;
 
         #region Unity Functions
-
-        private void Start()
-        {
-            _sphereCollider = GetComponent<SphereCollider>();
-            _sphereCollider.radius = interestRange;
-        }
-
-        private void OnDrawGizmos()
-        {
-            Gizmos.color = Color.red;
-            Gizmos.DrawWireSphere(transform.position, interestRange);
-        }
 
         private void OnTriggerEnter(Collider other)
         {
@@ -49,7 +37,7 @@ namespace PlayerModifier
 
         #region External Functions
 
-        public Vector3 GetTargetPosition() => transform.position;
+        public Vector3 GetTargetPosition() => decisionPoint.GetDecisionPointPosition();
 
         public bool IsWithinModifierRange() => _playerController != null;
 
