@@ -64,7 +64,7 @@ namespace Player
             }
         }
 
-        public void StopPlayerMovement() => playerMovement.StopPlayerMovement();
+        public void StopPlayerMovement(bool forceStopMovement = false) => playerMovement.StopPlayerMovement(forceStopMovement);
 
         public void SnapAndRevivePlayerToPosition(Vector3 position)
         {

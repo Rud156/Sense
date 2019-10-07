@@ -601,7 +601,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerMovement: {fileID: 1950806920}
   minPlayerClickWeight: 0.3
-  playerAnimation: {fileID: 0}
+  playerAnimation: {fileID: 1874400157352317785}
 --- !u!114 &1950806920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -619,8 +619,8 @@ MonoBehaviour:
   minRotationAffectDistance: 5
   rotationRate: 5
   walkingSpeed: 7
-  runningSpeed: 14
-  minDistanceBeforeRunning: 100
+  runningSpeed: 21
+  minDistanceBeforeRunning: 75
 --- !u!114 &1874400157352317785
 MonoBehaviour:
   m_ObjectHideFlags: 0

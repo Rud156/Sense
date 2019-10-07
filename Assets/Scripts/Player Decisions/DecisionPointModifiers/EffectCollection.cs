@@ -11,7 +11,8 @@ namespace PlayerDecisions.DecisionModifiers
 
         public override bool AffectPlayer(Vector3 playerPosition, PlayerController playerController)
         {
-            Instantiate(effectPrefab, playerPosition, Quaternion.identity);
+            GameObject effectInstance = Instantiate(effectPrefab, transform.position, Quaternion.identity);
+            effectInstance.transform.localScale = Vector3.one * 5;
             SfxAudioManager.Instance.PlaySound(collectionSound);
 
             return true;

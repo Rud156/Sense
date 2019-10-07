@@ -98,10 +98,7 @@ namespace PlayerDecisions
             }
         }
 
-        public void RevertToLastCheckPoint()
-        {
-            singleFader.StartFadeOut(true);
-        }
+        public void FadeScreenOut() => singleFader.StartFadeOut(true);
 
         #endregion
 
@@ -154,6 +151,8 @@ namespace PlayerDecisions
                 DecisionPointModifier decisionPointModifier = decisionPoint.GetDecisionPointModifier();
                 decisionPointModifier.ResetModifier();
             }
+
+            singleFader.StartFadeIn();
         }
 
         private void ClearAllDecisionData()

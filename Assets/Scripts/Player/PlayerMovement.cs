@@ -17,6 +17,8 @@ namespace Player
         private Vector3 _targetPosition;
         private bool _isPlayerRunning;
 
+        private bool _playerStopped;
+
         #region Unity Functions
 
         private void Start()
@@ -29,6 +31,11 @@ namespace Player
 
         private void Update()
         {
+            if (_playerStopped)
+            {
+                return;
+            }
+
             MovePlayerTowardsTarget();
             RotatePlayerTowardsTarget();
         }
@@ -51,9 +58,15 @@ namespace Player
             }
 
             _targetPosition = position;
+            _playerStopped = false;
         }
 
-        public void StopPlayerMovement() => playerAgent.ResetPath();
+        public void StopPlayerMovement(bool forceStop = false)
+        {
+            playerAgent.ResetPath();
+
+            _playerStopped = true;
+        }
 
         public float GetWalkingSpeed() => walkingSpeed;
 

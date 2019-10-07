@@ -8,6 +8,7 @@ using PlayerDecisions.DecisionModifiers;
 using UI;
 using UnityEngine;
 using Utils;
+using World;
 
 namespace PlayerDecisions
 {
@@ -24,7 +25,9 @@ namespace PlayerDecisions
         public int resistanceLessBeliefReduceAmount = 5;
 
         [Header("Items")] [TextArea] public List<string> decisionPointDialogue;
-        public float resetPlayerAfterTime = 2;
+        public float resetPlayerAfterTime = 7;
+
+        private CollisionNotifier _collisionNotifier;
 
         private DecisionItem _decisionItem;
         private DecisionPointModifier _decisionPointModifier;
@@ -37,9 +40,19 @@ namespace PlayerDecisions
         {
             _decisionPointModifier = GetComponent<DecisionPointModifier>();
             _decisionItem = GetComponent<DecisionItem>();
+            _collisionNotifier = GetComponentInChildren<CollisionNotifier>();
+
+            _collisionNotifier.OnTriggerEntered += HandleOnTriggerEnter;
+            _collisionNotifier.OnTriggerExited += HandleOnTriggerExit;
         }
 
-        private void OnTriggerEnter(Collider other)
+        private void OnDestroy()
+        {
+            _collisionNotifier.OnTriggerEntered -= HandleOnTriggerEnter;
+            _collisionNotifier.OnTriggerExited -= HandleOnTriggerExit;
+        }
+
+        private void HandleOnTriggerEnter(Collider other)
         {
             if (other.CompareTag(TagManager.Player))
             {
@@ -49,7 +62,7 @@ namespace PlayerDecisions
             }
         }
 
-        private void OnTriggerExit(Collider other)
+        private void HandleOnTriggerExit(Collider other)
         {
             if (other.CompareTag(TagManager.Player))
             {
@@ -82,16 +95,16 @@ namespace PlayerDecisions
 
         private void ActivateDecisionPoint()
         {
-            _playerController.StopPlayerMovement();
-
             bool isSafeDecisionPoint = _decisionPointModifier.AffectPlayer(_playerController.transform.position, _playerController);
             if (isSafeDecisionPoint)
             {
+                _playerController.StopPlayerMovement();
                 ActivateGoodDecisionPoint();
             }
             else
             {
-                StartCoroutine(ActivateBadDecisionPoint());
+                _playerController.StopPlayerMovement(true);
+                ActivateBadDecisionPoint();
             }
 
             switch (decisionPointWorldType)
@@ -197,12 +210,10 @@ namespace PlayerDecisions
             _decisionItem.MarkItemAsCollected(true);
         }
 
-        private IEnumerator ActivateBadDecisionPoint()
+        private void ActivateBadDecisionPoint()
         {
             BeliefController.Instance.ReduceBelief(beliefAmount);
-
-            yield return new WaitForSeconds(resetPlayerAfterTime);
-            DecisionController.Instance.RevertToLastCheckPoint();
+            DecisionController.Instance.FadeScreenOut();
         }
 
         #endregion
