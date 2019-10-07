@@ -184,6 +184,10 @@ namespace PlayerDecisions
                     _playerSenseController.CollectColoredSight();
                     break;
 
+                case DecisionItemType.Death:
+                case DecisionItemType.None:
+                    break;
+
                 default:
                     throw new ArgumentOutOfRangeException();
             }

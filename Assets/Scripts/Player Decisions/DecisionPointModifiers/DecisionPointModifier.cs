@@ -4,9 +4,12 @@ using UnityEngine;
 
 namespace PlayerDecisions.DecisionModifiers
 {
-    public abstract class DecisionPointModifier : MonoBehaviour
+    public class DecisionPointModifier : MonoBehaviour
     {
-        public abstract bool AffectPlayer(Vector3 playerPosition, PlayerController playerController);
+        public virtual bool AffectPlayer(Vector3 playerPosition, PlayerController playerController)
+        {
+            return true;
+        }
 
         public virtual void ResetModifier()
         {
