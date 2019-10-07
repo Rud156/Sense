@@ -1,5 +1,6 @@
 ﻿using Audio;
 using Player;
+using PlayerDecisions.DecisionItemData;
 using UnityEngine;
 
 namespace PlayerDecisions.DecisionModifiers
@@ -8,7 +9,7 @@ namespace PlayerDecisions.DecisionModifiers
     {
         public AudioClip deathAudioClip;
 
-        public override bool AffectPlayer(Vector3 playerPosition, PlayerController playerController)
+        public override bool AffectPlayer(Vector3 playerPosition, PlayerController playerController, DecisionItem decisionItem)
         {
             SfxAudioManager.Instance.PlaySound(deathAudioClip);
             playerController.PlayDeathAnimation();

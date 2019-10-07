@@ -145,7 +145,7 @@ namespace PlayerDecisions
                 if (decisionItem)
                 {
                     ItemsCollectibleController.Instance.RemoveItemFromPlayerInventory(decisionItem);
-                    decisionItem.MarkItemAsCollected(false);
+//                    decisionItem.MarkItemAsCollected(false);
                 }
 
                 DecisionPointModifier decisionPointModifier = decisionPoint.GetDecisionPointModifier();

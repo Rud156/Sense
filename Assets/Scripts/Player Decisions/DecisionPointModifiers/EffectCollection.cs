@@ -1,5 +1,6 @@
 ﻿using Audio;
 using Player;
+using PlayerDecisions.DecisionItemData;
 using UnityEngine;
 
 namespace PlayerDecisions.DecisionModifiers
@@ -9,11 +10,14 @@ namespace PlayerDecisions.DecisionModifiers
         [Header("Effects")] public GameObject effectPrefab;
         public AudioClip collectionSound;
 
-        public override bool AffectPlayer(Vector3 playerPosition, PlayerController playerController)
+        public override bool AffectPlayer(Vector3 playerPosition, PlayerController playerController, DecisionItem decisionItem)
         {
-            GameObject effectInstance = Instantiate(effectPrefab, transform.position, Quaternion.identity);
-            effectInstance.transform.localScale = Vector3.one * 5;
-            SfxAudioManager.Instance.PlaySound(collectionSound);
+            if (!decisionItem.IsItemCollected())
+            {
+                GameObject effectInstance = Instantiate(effectPrefab, transform.position, Quaternion.identity);
+                effectInstance.transform.localScale = Vector3.one * 10;
+                SfxAudioManager.Instance.PlaySound(collectionSound);
+            }
 
             return true;
         }

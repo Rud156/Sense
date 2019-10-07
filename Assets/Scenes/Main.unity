@@ -325,7 +325,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 5889231}
   beliefAmount: 0
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &5889233
@@ -585,7 +585,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 32
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -830,7 +830,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 19034365}
   beliefAmount: 10
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &19034368
@@ -1645,7 +1645,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 27039495}
   beliefAmount: 10
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &27039498
@@ -1866,7 +1866,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 51
+      value: 49
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1940,7 +1940,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 30067777}
   beliefAmount: 0
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 0
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!23 &30067774
@@ -2464,7 +2464,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 40
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2806,7 +2806,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 43005036}
   beliefAmount: 0
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 0
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue:
   - What will happen now???
   resetPlayerAfterTime: 1.5
@@ -3107,7 +3107,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 49777341}
   beliefAmount: 0
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue:
   - It's even warmer here
   resetPlayerAfterTime: 1.5
@@ -3472,7 +3472,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 57544583}
   beliefAmount: 0
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &57544585
@@ -4779,10 +4779,10 @@ MonoBehaviour:
   rightPoint: {fileID: 0}
   topPoint: {fileID: 0}
   bottomPoint: {fileID: 533058025}
-  decisionPointPosition: {fileID: 833947835}
+  decisionPointPosition: {fileID: 92116363}
   beliefAmount: 10
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &92116366
@@ -5462,7 +5462,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6333,7 +6333,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 125038503}
   beliefAmount: 0
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 0
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue:
   - There are cold drafts coming from here...
   resetPlayerAfterTime: 1.5
@@ -6951,7 +6951,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7085,7 +7085,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 144892115}
   beliefAmount: 5
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &144892118
@@ -7590,7 +7590,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1983435473}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &149474527
 MonoBehaviour:
@@ -7772,7 +7772,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 152502564}
   beliefAmount: 0
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &152502566
@@ -7939,9 +7939,9 @@ MonoBehaviour:
   topPoint: {fileID: 0}
   bottomPoint: {fileID: 891049188}
   decisionPointPosition: {fileID: 2022391407}
-  beliefAmount: 30
+  beliefAmount: 60
   decisionPointWorldType: 2
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &156620708
@@ -8526,7 +8526,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8600,7 +8600,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 168253420}
   beliefAmount: 0
   decisionPointWorldType: 2
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue:
   - I might just freeze here...
   resetPlayerAfterTime: 1.5
@@ -8752,7 +8752,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 170590054}
   beliefAmount: 0
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue:
   - What sorty of place is this...
   - Looks like the stories were actually true
@@ -8945,7 +8945,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 41
+      value: 38
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -10394,7 +10394,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 49
+      value: 47
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -10544,7 +10544,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 42
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -11306,7 +11306,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &234636948
 Transform:
   m_ObjectHideFlags: 0
@@ -11441,7 +11441,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 239079136}
   beliefAmount: 0
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &239079138
@@ -11893,7 +11893,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 48
+      value: 44
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -12804,7 +12804,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -13376,9 +13376,9 @@ MonoBehaviour:
   topPoint: {fileID: 57544584}
   bottomPoint: {fileID: 1459548350}
   decisionPointPosition: {fileID: 588864006}
-  beliefAmount: 0
+  beliefAmount: 45
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &301472658
@@ -13630,7 +13630,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 309289254}
   beliefAmount: 0
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 0
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &309289256
@@ -14159,7 +14159,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 323995578}
   beliefAmount: 0
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 0
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue:
   - I'll be more carefull...
   resetPlayerAfterTime: 1.5
@@ -14363,7 +14363,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 43
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -14519,10 +14519,10 @@ MonoBehaviour:
   rightPoint: {fileID: 0}
   topPoint: {fileID: 0}
   bottomPoint: {fileID: 867443151}
-  decisionPointPosition: {fileID: 0}
-  beliefAmount: 10
+  decisionPointPosition: {fileID: 338230729}
+  beliefAmount: 30
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &338230732
@@ -14551,7 +14551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interestWeight: 0.8
+  interestWeight: 0.9
   requiredAbilities: 0000000001000000
 --- !u!65 &338230734
 BoxCollider:
@@ -15032,7 +15032,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 344005060}
   beliefAmount: 15
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &344005063
@@ -16199,7 +16199,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 366352723}
   beliefAmount: 15
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &366352726
@@ -17348,7 +17348,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -17437,7 +17437,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 397662390}
   beliefAmount: 0
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 0
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue:
   - It's a miracle that I got my hearing back...
   - I should be more careful from now on...
@@ -18025,9 +18025,9 @@ MonoBehaviour:
   topPoint: {fileID: 0}
   bottomPoint: {fileID: 0}
   decisionPointPosition: {fileID: 402322552}
-  beliefAmount: 10
+  beliefAmount: 30
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &402322555
@@ -19009,7 +19009,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 430717089}
   beliefAmount: 0
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 0
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue:
   - Finally I can see!!!
   - Now to find that object and destroy it....
@@ -19677,7 +19677,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 446116681}
   beliefAmount: 5
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &446116684
@@ -20119,7 +20119,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 456656005}
   beliefAmount: 0
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 0
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue:
   - I should not have been so greedy...
   resetPlayerAfterTime: 1.5
@@ -20295,7 +20295,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 459790793}
   beliefAmount: 15
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &459790796
@@ -20787,7 +20787,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 466471678}
   beliefAmount: 0
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &466471680
@@ -21433,7 +21433,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 52
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -21822,7 +21822,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -21978,7 +21978,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -22053,7 +22053,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 47
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -22488,7 +22488,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -22563,7 +22563,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 49
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -22727,7 +22727,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 503944934}
   beliefAmount: 0
   decisionPointWorldType: 2
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &503944936
@@ -23052,7 +23052,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 509046050}
   beliefAmount: 10
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &509046053
@@ -23125,7 +23125,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 46
+      value: 42
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -24184,9 +24184,9 @@ MonoBehaviour:
   topPoint: {fileID: 0}
   bottomPoint: {fileID: 0}
   decisionPointPosition: {fileID: 531060994}
-  beliefAmount: 10
+  beliefAmount: 30
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &531060997
@@ -24241,7 +24241,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 19.21, y: 20.09, z: 21.41}
+  m_Size: {x: 59.35, y: 35.5, z: 21.41}
   m_Center: {x: -0.04237652, y: 1.9192275, z: -0.03388566}
 --- !u!114 &531061001
 MonoBehaviour:
@@ -24255,7 +24255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interestWeight: 0.7
+  interestWeight: 0.9
   requiredAbilities: 0100000002000000
 --- !u!1001 &531743103
 PrefabInstance:
@@ -24298,7 +24298,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 38
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -24387,7 +24387,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 533058024}
   beliefAmount: 0
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 0
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &533058026
@@ -24578,7 +24578,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 35
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -24747,7 +24747,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 538621969}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0020000204, y: 0.02, z: 0.066}
+  m_LocalPosition: {x: 0.0020000204, y: 0, z: 0.066}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 753999499}
@@ -25413,7 +25413,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -25547,7 +25547,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 551359616}
   beliefAmount: 10
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &551359619
@@ -26059,7 +26059,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 39
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -26093,6 +26093,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 564716143}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &569448662
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 569448663}
+  m_Layer: 0
+  m_Name: Artifact Models
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &569448663
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569448662}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.0067731976, y: 0.037770055, z: 0.031399164}
+  m_Children:
+  - {fileID: 2128576207}
+  - {fileID: 887937288}
+  - {fileID: 816135523}
+  - {fileID: 1533681565}
+  - {fileID: 1078127543}
+  - {fileID: 1591173101}
+  m_Father: {fileID: 1441227631}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &573888703
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26191,9 +26227,9 @@ MonoBehaviour:
   topPoint: {fileID: 397662391}
   bottomPoint: {fileID: 456656006}
   decisionPointPosition: {fileID: 573888704}
-  beliefAmount: 30
+  beliefAmount: 50
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &573888707
@@ -26403,7 +26439,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 587054338}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.015, y: 0.04, z: 0.003}
+  m_LocalPosition: {x: 0.015, y: 0, z: 0.003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400726229}
@@ -26687,7 +26723,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -26762,7 +26798,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -27058,7 +27094,8 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 5.734601
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 446987713, guid: a01382f4fef9dda44bfc417604e578b8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a01382f4fef9dda44bfc417604e578b8, type: 3}
 --- !u!4 &608441645 stripped
 Transform:
@@ -27089,9 +27126,9 @@ MonoBehaviour:
   topPoint: {fileID: 0}
   bottomPoint: {fileID: 0}
   decisionPointPosition: {fileID: 608441645}
-  beliefAmount: 10
+  beliefAmount: 30
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &608441648
@@ -27146,7 +27183,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 19.21, y: 20.09, z: 21.41}
+  m_Size: {x: 31.2, y: 53.9, z: 97.9}
   m_Center: {x: -0.04237652, y: 1.9192275, z: -0.03388566}
 --- !u!114 &608441652
 MonoBehaviour:
@@ -27160,7 +27197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interestWeight: 0.7
+  interestWeight: 0.9
   requiredAbilities: 0100000002000000
 --- !u!1 &610736509
 GameObject:
@@ -27466,7 +27503,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 36
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -27691,7 +27728,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -28021,7 +28058,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 47
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -28240,7 +28277,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 37
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -28315,7 +28352,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -29270,7 +29307,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 663720418}
   beliefAmount: 0
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &663720420
@@ -29478,7 +29515,7 @@ Transform:
   m_LocalRotation: {x: -0.000000021855694, y: 6.5135044e-16, z: 0.000000029802322,
     w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.2920575, y: 0.8885395, z: 1.9908615}
+  m_LocalScale: {x: 1.1603312, y: 0.8885395, z: 0.9299912}
   m_Children: []
   m_Father: {fileID: 2111772923}
   m_RootOrder: 0
@@ -30712,7 +30749,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 705505381}
   beliefAmount: 5
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &705505384
@@ -31287,9 +31324,9 @@ MonoBehaviour:
   topPoint: {fileID: 1769854152}
   bottomPoint: {fileID: 0}
   decisionPointPosition: {fileID: 715618580}
-  beliefAmount: 10
+  beliefAmount: 30
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &715618583
@@ -31525,9 +31562,9 @@ MonoBehaviour:
   topPoint: {fileID: 1006293646}
   bottomPoint: {fileID: 0}
   decisionPointPosition: {fileID: 871960834}
-  beliefAmount: 15
+  beliefAmount: 30
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &717885758
@@ -31710,7 +31747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interestWeight: 0.5
+  interestWeight: 0.6
   requiredAbilities: 0000000002000000
 --- !u!65 &717885762
 BoxCollider:
@@ -31916,7 +31953,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 31
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -32255,7 +32292,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 34
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -32330,7 +32367,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 44
+      value: 42
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -32549,7 +32586,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -32779,7 +32816,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 744228396}
   beliefAmount: 50
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &744228399
@@ -33795,7 +33832,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 766637562}
   beliefAmount: 0
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue:
   - '...'
   resetPlayerAfterTime: 1.5
@@ -34087,7 +34124,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 772737826}
   beliefAmount: 0
   decisionPointWorldType: 2
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue:
   - It's very cold here...
   - I should probably pickup something...
@@ -34192,7 +34229,7 @@ Transform:
   m_LocalRotation: {x: -0.000000021855694, y: 6.5135044e-16, z: 0.000000029802322,
     w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.8146281, y: 1.4787794, z: 3.313353}
+  m_LocalScale: {x: 1.3282535, y: 1.4787794, z: 1.4344499}
   m_Children: []
   m_Father: {fileID: 573888704}
   m_RootOrder: 0
@@ -34535,7 +34572,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 784799441}
   beliefAmount: 0
   decisionPointWorldType: 2
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue:
   - Cooollld...
   resetPlayerAfterTime: 1.5
@@ -34922,9 +34959,9 @@ MonoBehaviour:
   topPoint: {fileID: 0}
   bottomPoint: {fileID: 1941604057}
   decisionPointPosition: {fileID: 793297110}
-  beliefAmount: 10
+  beliefAmount: 20
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &793297113
@@ -35501,7 +35538,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 44
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -35852,9 +35889,9 @@ MonoBehaviour:
   topPoint: {fileID: 896248498}
   bottomPoint: {fileID: 0}
   decisionPointPosition: {fileID: 809184073}
-  beliefAmount: 30
+  beliefAmount: 50
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &809184076
@@ -36101,6 +36138,81 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1370717701}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &816135522
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 569448663}
+    m_Modifications:
+    - target: {fileID: 1312516848374562, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_Name
+      value: EA_Fruit_01c_Default (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.779602
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.3600464
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.7042847
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.3901632
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6982726
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.28078586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5304219
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 53.710003
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 118.19301
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 24.667002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 38.530342
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 38.530346
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 38.530342
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+--- !u!4 &816135523 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157,
+    type: 3}
+  m_PrefabInstance: {fileID: 816135522}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &819399937
 GameObject:
   m_ObjectHideFlags: 0
@@ -36234,7 +36346,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 34
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -36473,7 +36585,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -36548,7 +36660,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 49
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -36838,9 +36950,9 @@ MonoBehaviour:
   topPoint: {fileID: 0}
   bottomPoint: {fileID: 1558071156}
   decisionPointPosition: {fileID: 833947835}
-  beliefAmount: 10
+  beliefAmount: 40
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &833947838
@@ -37145,9 +37257,9 @@ MonoBehaviour:
   topPoint: {fileID: 0}
   bottomPoint: {fileID: 168253416}
   decisionPointPosition: {fileID: 835246641}
-  beliefAmount: 25
+  beliefAmount: 30
   decisionPointWorldType: 2
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &835246644
@@ -37684,9 +37796,9 @@ MonoBehaviour:
   topPoint: {fileID: 0}
   bottomPoint: {fileID: 30067773}
   decisionPointPosition: {fileID: 841523879}
-  beliefAmount: 10
+  beliefAmount: 40
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &841523882
@@ -37891,8 +38003,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.24, y: 2.63, z: 4.79}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 8, y: 2.63, z: 7.43}
+  m_Center: {x: 1.72, y: 0, z: -0.94}
 --- !u!1001 &845280201
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38639,7 +38751,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 867196550}
   beliefAmount: 10
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &867196553
@@ -38810,7 +38922,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 867443150}
   beliefAmount: 0
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue:
   - I must find and destroy it
   - Grrrr.....
@@ -38928,7 +39040,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -39414,7 +39526,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 875872529}
   beliefAmount: 5
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &875872532
@@ -40027,6 +40139,81 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 887924869}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &887937287
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 569448663}
+    m_Modifications:
+    - target: {fileID: 1312516848374562, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_Name
+      value: EA_Fruit_01c_Default (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.7000122
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.20000076
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.699982
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.04873276
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.62609273
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.29386333
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.720609
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 25.989
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 76.406006
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -23.783
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 38.53034
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 38.530342
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 38.530342
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+--- !u!4 &887937288 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157,
+    type: 3}
+  m_PrefabInstance: {fileID: 887937287}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &889051686
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40157,7 +40344,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 891049187}
   beliefAmount: 0
   decisionPointWorldType: 2
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &891049189
@@ -40332,7 +40519,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 893268851}
   beliefAmount: 5
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &893268854
@@ -40641,7 +40828,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 896248496}
   beliefAmount: 10
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &896248499
@@ -41586,7 +41773,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -42207,7 +42394,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 30
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -42420,7 +42607,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 947308299}
   beliefAmount: 10
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &947308302
@@ -42698,9 +42885,9 @@ MonoBehaviour:
   topPoint: {fileID: 0}
   bottomPoint: {fileID: 0}
   decisionPointPosition: {fileID: 2115276735}
-  beliefAmount: 15
+  beliefAmount: 30
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &948635624
@@ -42892,7 +43079,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interestWeight: 0.5
+  interestWeight: 0.7
   requiredAbilities: 0000000002000000
 --- !u!65 &948635628
 BoxCollider:
@@ -43260,9 +43447,9 @@ MonoBehaviour:
   topPoint: {fileID: 239079137}
   bottomPoint: {fileID: 152502565}
   decisionPointPosition: {fileID: 956102146}
-  beliefAmount: 25
+  beliefAmount: 30
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &956102149
@@ -43707,7 +43894,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 31
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -43857,7 +44044,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -43932,7 +44119,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -44379,7 +44566,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 45
+      value: 42
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -44454,7 +44641,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 51
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -44616,9 +44803,9 @@ MonoBehaviour:
   topPoint: {fileID: 0}
   bottomPoint: {fileID: 0}
   decisionPointPosition: {fileID: 987044988}
-  beliefAmount: 10
+  beliefAmount: 30
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &987044991
@@ -44687,7 +44874,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interestWeight: 0.7
+  interestWeight: 0.9
   requiredAbilities: 0100000002000000
 --- !u!1 &991100216
 GameObject:
@@ -45296,7 +45483,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 1006293645}
   beliefAmount: 0
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue:
   - It's very hot here...
   - Something is definitely nearby...
@@ -45786,7 +45973,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1983435473}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1022215288
 MonoBehaviour:
@@ -45841,7 +46028,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 36
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -46092,7 +46279,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 1032704290}
   beliefAmount: 0
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 0
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1032704292
@@ -46951,7 +47138,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 1048391950}
   beliefAmount: 0
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue:
   - I'll have to look out from the heat.
   resetPlayerAfterTime: 1.5
@@ -47547,7 +47734,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 1055200539}
   beliefAmount: 10
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1055200542
@@ -48235,7 +48422,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -48418,6 +48605,81 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07,
     type: 3}
   m_PrefabInstance: {fileID: 1076962286}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1078127542
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 569448663}
+    m_Modifications:
+    - target: {fileID: 1312516848374562, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_Name
+      value: EA_Fruit_01c_Default (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.5999756
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -13.099999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.3000183
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.71995753
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.009207743
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.6504208
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.24192815
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 21.121
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 267.736
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 198.85399
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 38.53035
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 38.530357
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 38.53035
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+--- !u!4 &1078127543 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157,
+    type: 3}
+  m_PrefabInstance: {fileID: 1078127542}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1078270105
 PrefabInstance:
@@ -49134,7 +49396,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 1096209322}
   beliefAmount: 10
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1096209325
@@ -49619,7 +49881,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1108073961}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.031999916, y: 0.14000002, z: 0.101}
+  m_LocalPosition: {x: -0.031999916, y: 0, z: 0.101}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 675837211}
@@ -50122,7 +50384,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 36
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -50617,7 +50879,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -50853,7 +51115,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 1145411839}
   beliefAmount: 0
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 0
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1145411841
@@ -51083,9 +51345,9 @@ MonoBehaviour:
   topPoint: {fileID: 0}
   bottomPoint: {fileID: 323995579}
   decisionPointPosition: {fileID: 1147552200}
-  beliefAmount: 10
+  beliefAmount: 20
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1147552203
@@ -51256,7 +51518,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 32
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -52428,7 +52690,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 41
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -52819,7 +53081,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -53107,7 +53369,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 43
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -53182,7 +53444,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 100}
+  m_AnchoredPosition: {x: 0, y: 99.999985}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1215436269
@@ -54050,7 +54312,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 1241660705}
   beliefAmount: 0
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue:
   - I can see better now...
   - But I must be more careful
@@ -54467,7 +54729,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -54674,7 +54936,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 35
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -55109,9 +55371,9 @@ MonoBehaviour:
   topPoint: {fileID: 459790795}
   bottomPoint: {fileID: 1706784758}
   decisionPointPosition: {fileID: 1280349851}
-  beliefAmount: 30
+  beliefAmount: 60
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1280349854
@@ -55169,7 +55431,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 13.96, y: 32.79, z: 30.6}
+  m_Size: {x: 18.68, y: 45.8, z: 68}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1280793438
 PrefabInstance:
@@ -56900,7 +57162,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 42
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -57290,7 +57552,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -57705,7 +57967,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 588236003}
   beliefAmount: 15
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1339597129
@@ -57992,7 +58254,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -58220,7 +58482,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1983435473}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1346637896
 MonoBehaviour:
@@ -58735,7 +58997,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 30
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -59861,7 +60123,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 1392731929}
   beliefAmount: 5
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1392731932
@@ -60538,7 +60800,7 @@ Transform:
   m_LocalRotation: {x: -0.000000021855694, y: 6.5135044e-16, z: 0.000000029802322,
     w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.707414, y: 1.0495566, z: 2.3516364}
+  m_LocalScale: {x: 1.3071123, y: 1.0495566, z: 0.87730145}
   m_Children: []
   m_Father: {fileID: 809184073}
   m_RootOrder: 0
@@ -60858,7 +61120,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -61224,7 +61486,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 50
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -61413,9 +61675,9 @@ MonoBehaviour:
   topPoint: {fileID: 0}
   bottomPoint: {fileID: 0}
   decisionPointPosition: {fileID: 1426560264}
-  beliefAmount: 0
+  beliefAmount: 45
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1426560267
@@ -61962,7 +62224,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 1434944906}
   beliefAmount: 0
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1434944908
@@ -62377,6 +62639,112 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1441227627
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1441227631}
+  - component: {fileID: 1441227630}
+  - component: {fileID: 1441227629}
+  - component: {fileID: 1441227628}
+  - component: {fileID: 1441227632}
+  m_Layer: 0
+  m_Name: Final Artifact Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1441227628
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441227627}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1441227629
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441227627}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1441227630
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441227627}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1441227631
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441227627}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -625.6, y: 20.8, z: 323.8}
+  m_LocalScale: {x: 147.64076, y: 26.476, z: 31.847982}
+  m_Children:
+  - {fileID: 569448663}
+  m_Father: {fileID: 0}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1441227632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441227627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19ec60106c3344a88be9596704d4ffa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1449797625 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: e64b86d8d22a03844a23b030a9530f67,
@@ -62914,9 +63282,9 @@ MonoBehaviour:
   topPoint: {fileID: 301472657}
   bottomPoint: {fileID: 0}
   decisionPointPosition: {fileID: 1459548348}
-  beliefAmount: 10
+  beliefAmount: 40
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1459548351
@@ -63595,10 +63963,10 @@ MonoBehaviour:
   rightPoint: {fileID: 891049188}
   topPoint: {fileID: 772737827}
   bottomPoint: {fileID: 0}
-  decisionPointPosition: {fileID: 0}
+  decisionPointPosition: {fileID: 1471782626}
   beliefAmount: 5
   decisionPointWorldType: 2
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1471782629
@@ -63671,7 +64039,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 51
+      value: 47
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -63996,6 +64364,63 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 966241700}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1492728929
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1492728930}
+  - component: {fileID: 1492728932}
+  - component: {fileID: 1492728931}
+  m_Layer: 0
+  m_Name: Collision Notifier (97)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1492728930
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492728929}
+  m_LocalRotation: {x: -0, y: -0, z: 0.000000029802322, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.5724658, y: 0.6095826, z: 1.3658303}
+  m_Children: []
+  m_Father: {fileID: 2005193281}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1492728931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492728929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37dc20699723bbc43bb9c9112fe3d621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1492728932
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492728929}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1493068335
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64182,9 +64607,9 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 1495526826}
   beliefAmount: 0
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 0
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue:
-  - Nooo. I can see or feel anything...
+  - Nooo. I can see anything...
   - What have I done...
   resetPlayerAfterTime: 1.5
 --- !u!114 &1495526828
@@ -64419,7 +64844,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 1496510427}
   beliefAmount: 15
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1496510430
@@ -64640,7 +65065,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -65413,7 +65838,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 33
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -65954,6 +66379,81 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
+--- !u!1001 &1533681564
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 569448663}
+    m_Modifications:
+    - target: {fileID: 1312516848374562, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_Name
+      value: EA_Fruit_01c_Default (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.8433838
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.973118
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.7827454
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.5053004
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6691916
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.2005687
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.50658303
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 14.094001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 114.76501
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 65.066
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 38.53034
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 38.530342
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 38.530334
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+--- !u!4 &1533681565 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157,
+    type: 3}
+  m_PrefabInstance: {fileID: 1533681564}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1533939643
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -66411,7 +66911,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 1542729768}
   beliefAmount: 0
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 0
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1542729770
@@ -66671,7 +67171,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -66895,9 +67395,9 @@ MonoBehaviour:
   topPoint: {fileID: 0}
   bottomPoint: {fileID: 0}
   decisionPointPosition: {fileID: 1546885614}
-  beliefAmount: 15
+  beliefAmount: 20
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1546885617
@@ -67102,8 +67602,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 6.3, y: 3.37, z: 4.39}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 6.3, y: 3.37, z: 5.1}
+  m_Center: {x: 0, y: 0, z: 1.2}
 --- !u!1 &1547609364
 GameObject:
   m_ObjectHideFlags: 0
@@ -67294,7 +67794,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 33
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -67575,9 +68075,9 @@ MonoBehaviour:
   topPoint: {fileID: 0}
   bottomPoint: {fileID: 0}
   decisionPointPosition: {fileID: 1558071154}
-  beliefAmount: 15
+  beliefAmount: 30
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1558071157
@@ -68375,7 +68875,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 1569205478}
   beliefAmount: 0
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1569205480
@@ -69134,9 +69634,9 @@ MonoBehaviour:
   topPoint: {fileID: 0}
   bottomPoint: {fileID: 2111772925}
   decisionPointPosition: {fileID: 1584673223}
-  beliefAmount: 0
+  beliefAmount: 45
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1584673226
@@ -69312,6 +69812,81 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e64b86d8d22a03844a23b030a9530f67, type: 3}
+--- !u!1001 &1591173100
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 569448663}
+    m_Modifications:
+    - target: {fileID: 1312516848374562, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_Name
+      value: EA_Fruit_01c_Default (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.199951
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -10.499999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.200012
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.07595971
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.3784127
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.80576736
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.44919148
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -32.792
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 326.632
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 248.35599
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 38.530365
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 38.530357
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 38.530342
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+--- !u!4 &1591173101 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157,
+    type: 3}
+  m_PrefabInstance: {fileID: 1591173100}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1593637874
 GameObject:
   m_ObjectHideFlags: 0
@@ -69632,7 +70207,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -69707,7 +70282,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 39
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -69930,9 +70505,9 @@ MonoBehaviour:
   topPoint: {fileID: 0}
   bottomPoint: {fileID: 0}
   decisionPointPosition: {fileID: 1614059645}
-  beliefAmount: 10
+  beliefAmount: 50
   decisionPointWorldType: 2
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1614059648
@@ -70495,7 +71070,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -70759,7 +71334,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 50
+      value: 47
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -70834,7 +71409,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -71509,7 +72084,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -71647,7 +72222,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1983435473}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1653884679
 MonoBehaviour:
@@ -71951,10 +72526,10 @@ MonoBehaviour:
   rightPoint: {fileID: 0}
   topPoint: {fileID: 1997656824}
   bottomPoint: {fileID: 0}
-  decisionPointPosition: {fileID: 0}
-  beliefAmount: 15
+  decisionPointPosition: {fileID: 1665869568}
+  beliefAmount: 30
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1665869571
@@ -71983,7 +72558,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interestWeight: 0.35
+  interestWeight: 0.6
   requiredAbilities: 00000000
 --- !u!65 &1665869573
 BoxCollider:
@@ -71996,8 +72571,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 6.4, y: 2.91, z: 2.68}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 5.45, y: 2.91, z: 1.66}
+  m_Center: {x: -1.87, y: 0, z: 0}
 --- !u!82 &1665869574
 AudioSource:
   m_ObjectHideFlags: 0
@@ -72259,7 +72834,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 48
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -72334,7 +72909,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 46
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -72573,7 +73148,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 1682765753}
   beliefAmount: 0
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue:
   - I can't understand anything...
   resetPlayerAfterTime: 1.5
@@ -73106,7 +73681,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 1695667502}
   beliefAmount: 5
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1695667505
@@ -73691,7 +74266,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 1706784757}
   beliefAmount: 0
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 0
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1706784759
@@ -73960,6 +74535,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1962912119}
+  - {fileID: 1921951747}
   m_Father: {fileID: 1903356825}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -74037,7 +74613,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 1715620866}
   beliefAmount: 0
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1715620868
@@ -74378,7 +74954,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 33
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -74626,7 +75202,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 45
+      value: 41
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -74707,7 +75283,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 31
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -74782,7 +75358,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -75064,7 +75640,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -75139,7 +75715,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 46
+      value: 44
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -75866,7 +76442,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1767319953
 RectTransform:
   m_ObjectHideFlags: 0
@@ -76066,7 +76642,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 1769854151}
   beliefAmount: 0
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 0
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1769854153
@@ -76466,7 +77042,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 1776021239}
   beliefAmount: 5
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1776021242
@@ -78003,7 +78579,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 44
+      value: 41
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -78361,7 +78937,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1825703769}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.2, y: 0.36, z: 0}
+  m_LocalPosition: {x: -0.2, y: 0.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 145938046}
@@ -78976,9 +79552,9 @@ MonoBehaviour:
   topPoint: {fileID: 0}
   bottomPoint: {fileID: 0}
   decisionPointPosition: {fileID: 1837939391}
-  beliefAmount: 10
+  beliefAmount: 35
   decisionPointWorldType: 2
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1837939394
@@ -79780,7 +80356,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 1856435489}
   beliefAmount: 0
   decisionPointWorldType: 2
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue:
   - Brrrr...
   resetPlayerAfterTime: 1.5
@@ -80938,7 +81514,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 37
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -81251,7 +81827,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 1882570533}
   beliefAmount: 5
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1882570536
@@ -81456,7 +82032,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3, y: 6.06, z: 1.41}
+  m_Size: {x: 5.02, y: 6.06, z: 1.41}
   m_Center: {x: -0.006341815, y: -0.0010051283, z: 0.008390466}
 --- !u!1001 &1885008328
 PrefabInstance:
@@ -81588,7 +82164,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 1888498322}
   beliefAmount: 0
   decisionPointWorldType: 2
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1888498324
@@ -81961,7 +82537,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 48
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -82396,7 +82972,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 521028506}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -82622,9 +83198,9 @@ MonoBehaviour:
   topPoint: {fileID: 0}
   bottomPoint: {fileID: 1997656824}
   decisionPointPosition: {fileID: 1907671268}
-  beliefAmount: 10
+  beliefAmount: 20
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1907671271
@@ -82893,7 +83469,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -83037,7 +83613,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1983435473}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1915960875
 MonoBehaviour:
@@ -83226,6 +83802,162 @@ Transform:
   m_Father: {fileID: 991100220}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1921951746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1921951747}
+  - component: {fileID: 1921951749}
+  - component: {fileID: 1921951748}
+  m_Layer: 5
+  m_Name: Belief Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1921951747
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921951746}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1712700273}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -238.54999, y: -0.000061035156}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1921951748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921951746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Faith
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: b046f1043d73cec4aab23edc66b37c0a, type: 2}
+  m_sharedMaterial: {fileID: 5274022159661218887, guid: b046f1043d73cec4aab23edc66b37c0a,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_outlineColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_textAlignment: 514
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_firstOverflowCharacterIndex: 0
+  m_linkedTextComponent: {fileID: 0}
+  m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_ignoreRectMaskCulling: 0
+  m_ignoreCulling: 1
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_firstVisibleCharacter: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_textInfo:
+    textComponent: {fileID: 1921951748}
+    characterCount: 5
+    spriteCount: 0
+    spaceCount: 0
+    wordCount: 1
+    linkCount: 0
+    lineCount: 1
+    pageCount: 1
+    materialCount: 1
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_spriteAnimator: {fileID: 0}
+  m_hasFontAssetChanged: 0
+  m_subTextObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1921951749
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921951746}
+  m_CullTransparentMesh: 0
 --- !u!1001 &1921971560
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -83267,7 +83999,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 40
+      value: 38
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -83732,7 +84464,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 34
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -83896,7 +84628,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 1933607538}
   beliefAmount: 5
   decisionPointWorldType: 2
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1933607541
@@ -84257,7 +84989,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 1941604056}
   beliefAmount: 0
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 0
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue:
   - How do I get back...
   resetPlayerAfterTime: 1.5
@@ -84617,7 +85349,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 1946674152}
   beliefAmount: 10
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1946674155
@@ -84897,7 +85629,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 1946974836}
   beliefAmount: 10
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1946974839
@@ -85081,13 +85813,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   leftPoint: {fileID: 867443151}
-  rightPoint: {fileID: 0}
+  rightPoint: {fileID: 2005193285}
   topPoint: {fileID: 1096209324}
   bottomPoint: {fileID: 366352725}
   decisionPointPosition: {fileID: 1949859010}
   beliefAmount: 0
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 0
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue:
   - This place feels calm...
   resetPlayerAfterTime: 1.5
@@ -85234,7 +85966,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 42
+      value: 38
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -85309,7 +86041,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -85792,7 +86524,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 181, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1962912120
@@ -86142,7 +86874,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 43
+      value: 41
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -86205,6 +86937,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1495526826}
+  - {fileID: 2005193281}
   - {fileID: 1653884678}
   - {fileID: 149474526}
   - {fileID: 1022215287}
@@ -86797,7 +87530,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 50
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -87147,7 +87880,7 @@ MonoBehaviour:
   decisionPointPosition: {fileID: 1997656823}
   beliefAmount: 0
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 0
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &1997656825
@@ -87338,7 +88071,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 47
+      value: 44
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -87413,7 +88146,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -87516,6 +88249,136 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c530b0565dee6d419f4668e90d711ac, type: 3}
+--- !u!1 &2005193280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2005193281}
+  - component: {fileID: 2005193286}
+  - component: {fileID: 2005193285}
+  - component: {fileID: 2005193284}
+  - component: {fileID: 2005193283}
+  - component: {fileID: 2005193282}
+  m_Layer: 0
+  m_Name: Final Target Decision Point
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2005193281
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005193280}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -613.2, y: 9.02, z: 318.3}
+  m_LocalScale: {x: 20, y: 20, z: 20}
+  m_Children:
+  - {fileID: 1492728930}
+  m_Father: {fileID: 1983435473}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2005193282
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005193280}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &2005193283
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005193280}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2005193284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005193280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31f535c841e8a684a80afbd1aa6c44c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2005193285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005193280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21587e45ace81a64d9a290551b23c78f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftPoint: {fileID: 0}
+  rightPoint: {fileID: 0}
+  topPoint: {fileID: 0}
+  bottomPoint: {fileID: 0}
+  decisionPointPosition: {fileID: 2005193281}
+  beliefAmount: 0
+  decisionPointWorldType: 1
+  resistanceLessBeliefReduceAmount: 10
+  decisionPointDialogue: []
+  resetPlayerAfterTime: 1.5
+--- !u!114 &2005193286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005193280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daf300f15dec82e419f32e99d8391845, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  decisionItemType: 10
+  textWorldObject: []
 --- !u!1001 &2005610378
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -88016,7 +88879,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 41
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -88196,7 +89059,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 38
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -89362,7 +90225,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 45
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -89680,7 +90543,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 30
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -89830,7 +90693,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 32
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -89983,7 +90846,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2088727930}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.03699992, y: 0.14000002, z: 0.03}
+  m_LocalPosition: {x: 0.03699992, y: 0, z: 0.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1873862364}
@@ -90619,7 +91482,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_RootOrder
-      value: 37
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 1605025218, guid: 345663e86a7f60545b8ec4a8ef734d07, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -91108,9 +91971,9 @@ MonoBehaviour:
   topPoint: {fileID: 1584673225}
   bottomPoint: {fileID: 0}
   decisionPointPosition: {fileID: 2111772923}
-  beliefAmount: 30
+  beliefAmount: 50
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &2111772926
@@ -91818,6 +92681,81 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2125042069}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2128576206
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 569448663}
+    m_Modifications:
+    - target: {fileID: 1312516848374562, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_Name
+      value: EA_Fruit_01c_Default
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.5999756
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.7000008
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.2999878
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.13298212
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0047315145
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.2405766
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9614658
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -14.951001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -3.2570002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 28.524002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 38.53035
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 38.530346
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 38.530334
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abecd295c424d6a4ebfed5ebfb35a157, type: 3}
+--- !u!4 &2128576207 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4477711214539828, guid: abecd295c424d6a4ebfed5ebfb35a157,
+    type: 3}
+  m_PrefabInstance: {fileID: 2128576206}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2129829246
 GameObject:
   m_ObjectHideFlags: 0
@@ -91847,7 +92785,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1983435473}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2129829248
 MonoBehaviour:
@@ -91962,7 +92900,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2131288482}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.033, y: 0.14000002, z: 0.06633331}
+  m_LocalPosition: {x: -0.033, y: 0, z: 0.06633331}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1004239757}
@@ -92433,7 +93371,7 @@ PrefabInstance:
     - target: {fileID: 258201031176165435, guid: f1800234c41a5f242a05fc4bf3b9d838,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 124.2
+      value: 126.19
       objectReference: {fileID: 0}
     - target: {fileID: 258201031176165435, guid: f1800234c41a5f242a05fc4bf3b9d838,
         type: 3}
@@ -92443,7 +93381,7 @@ PrefabInstance:
     - target: {fileID: 258201031176165435, guid: f1800234c41a5f242a05fc4bf3b9d838,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 26.3
+      value: 23.25
       objectReference: {fileID: 0}
     - target: {fileID: 258201031176165435, guid: f1800234c41a5f242a05fc4bf3b9d838,
         type: 3}
@@ -92616,9 +93554,9 @@ MonoBehaviour:
   topPoint: {fileID: 0}
   bottomPoint: {fileID: 0}
   decisionPointPosition: {fileID: 842354654039097131}
-  beliefAmount: 10
+  beliefAmount: 203
   decisionPointWorldType: 0
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &842354654038788877
@@ -92823,7 +93761,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.37, y: 1.46, z: 6.45}
+  m_Size: {x: 5.67, y: 1.46, z: 6.45}
   m_Center: {x: -1.8326639e-11, y: 0.039532293, z: 0}
 --- !u!4 &842354654039097131
 Transform:
@@ -92912,9 +93850,9 @@ MonoBehaviour:
   topPoint: {fileID: 1145411840}
   bottomPoint: {fileID: 0}
   decisionPointPosition: {fileID: 5958226605728886277}
-  beliefAmount: 10
+  beliefAmount: 50
   decisionPointWorldType: 1
-  resistanceLessBeliefReduceAmount: 5
+  resistanceLessBeliefReduceAmount: 10
   decisionPointDialogue: []
   resetPlayerAfterTime: 1.5
 --- !u!114 &5958226605729176103
@@ -93106,7 +94044,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 408e5798b8469c3439d46714aba57760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interestWeight: 0.45
+  interestWeight: 0.5
   requiredAbilities: 0000000001000000
 --- !u!65 &5958226605729176107
 BoxCollider:
@@ -93119,7 +94057,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.02, y: 4.13, z: 10.08}
+  m_Size: {x: 8.36, y: 4.13, z: 10.08}
   m_Center: {x: 0, y: 0.039532293, z: 0}
 --- !u!23 &5958226605731310693
 MeshRenderer:

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using BeliefSystem;
 using Player;
@@ -44,6 +43,12 @@ namespace PlayerDecisions
 
             _collisionNotifier.OnTriggerEntered += HandleOnTriggerEnter;
             _collisionNotifier.OnTriggerExited += HandleOnTriggerExit;
+
+            // Debug Check for Position
+            if (decisionPointPosition == null)
+            {
+                Debug.LogError($"Warning No Decision Position: {gameObject.name}");
+            }
         }
 
         private void OnDestroy()
@@ -95,7 +100,7 @@ namespace PlayerDecisions
 
         private void ActivateDecisionPoint()
         {
-            bool isSafeDecisionPoint = _decisionPointModifier.AffectPlayer(_playerController.transform.position, _playerController);
+            bool isSafeDecisionPoint = _decisionPointModifier.AffectPlayer(_playerController.transform.position, _playerController, _decisionItem);
             if (isSafeDecisionPoint)
             {
                 _playerController.StopPlayerMovement();
@@ -181,6 +186,7 @@ namespace PlayerDecisions
 
                 case DecisionItemType.Hearing:
                     _playerSenseController.CollectHearingSense();
+                    BeliefController.Instance.ReduceBelief(beliefAmount * 2); // Hacky Fix
                     break;
 
                 case DecisionItemType.HeatProtection:
@@ -193,10 +199,12 @@ namespace PlayerDecisions
 
                 case DecisionItemType.GrayScaleSight:
                     _playerSenseController.CollectGrayScaleSight();
+                    BeliefController.Instance.ReduceBelief(beliefAmount * 2); // Hacky Fix
                     break;
 
                 case DecisionItemType.ColoredSight:
                     _playerSenseController.CollectColoredSight();
+                    BeliefController.Instance.ReduceBelief(beliefAmount);
                     break;
 
                 case DecisionItemType.Death:

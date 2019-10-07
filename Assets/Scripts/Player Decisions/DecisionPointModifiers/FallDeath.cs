@@ -1,4 +1,5 @@
 ﻿using Player;
+using PlayerDecisions.DecisionItemData;
 using UnityEngine;
 
 namespace PlayerDecisions.DecisionModifiers
@@ -8,7 +9,7 @@ namespace PlayerDecisions.DecisionModifiers
     {
         public Vector3 movePlayerToPoint;
 
-        public override bool AffectPlayer(Vector3 playerPosition, PlayerController playerController)
+        public override bool AffectPlayer(Vector3 playerPosition, PlayerController playerController, DecisionItem decisionItem)
         {
             playerController.PlayFallDeathAnimation(movePlayerToPoint);
 

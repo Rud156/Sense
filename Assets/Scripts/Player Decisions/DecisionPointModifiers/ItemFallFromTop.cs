@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Player;
+using PlayerDecisions.DecisionItemData;
 using UnityEngine;
 
 namespace PlayerDecisions.DecisionModifiers
@@ -63,7 +64,7 @@ namespace PlayerDecisions.DecisionModifiers
 
         #region Utility Functions
 
-        public override bool AffectPlayer(Vector3 playerPosition, PlayerController playerController)
+        public override bool AffectPlayer(Vector3 playerPosition, PlayerController playerController, DecisionItem decisionItem)
         {
             foreach (Rigidbody fallItem in fallItems)
             {
